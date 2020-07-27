@@ -1,0 +1,15 @@
+{
+  "name": "tree-sitter-howl",
+  "version": "0.1.3",
+  "description": "Simple Howl parser",
+  "main": "index.js",
+  "author": "T.E.A de Souza",
+  "license": "MIT",
+  "dependencies": {
+    "modules": "70",
+    "nan": "^2.14.1"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.16.9"
+  }
+}
