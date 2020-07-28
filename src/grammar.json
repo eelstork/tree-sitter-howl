@@ -1,36 +1,32 @@
 {
   "name": "Howl",
-  "word": "identifier",
+  "word": "id",
   "rules": {
-    "source_file": {
+    "Σ": {
       "type": "REPEAT",
       "content": {
         "type": "SYMBOL",
-        "name": "_definition"
+        "name": "_e"
       }
     },
-    "_definition": {
+    "_e": {
       "type": "CHOICE",
       "members": [
         {
           "type": "SYMBOL",
-          "name": "return"
+          "name": "str"
         },
         {
           "type": "SYMBOL",
-          "name": "identifier"
+          "name": "id"
         }
       ]
     },
-    "return": {
-      "type": "STRING",
-      "value": "return"
-    },
-    "identifier": {
+    "id": {
       "type": "PATTERN",
       "value": "[a-z]+"
     },
-    "verbatim_string_literal": {
+    "str": {
       "type": "TOKEN",
       "content": {
         "type": "SEQ",

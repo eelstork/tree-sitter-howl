@@ -1,6 +1,6 @@
 [
   {
-    "type": "source_file",
+    "type": "Σ",
     "named": true,
     "fields": {},
     "children": {
@@ -8,22 +8,22 @@
       "required": false,
       "types": [
         {
-          "type": "identifier",
+          "type": "id",
           "named": true
         },
         {
-          "type": "return",
+          "type": "str",
           "named": true
         }
       ]
     }
   },
   {
-    "type": "identifier",
+    "type": "id",
     "named": true
   },
   {
-    "type": "return",
+    "type": "str",
     "named": true
   }
 ]
