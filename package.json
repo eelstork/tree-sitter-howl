@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-howl",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Simple Howl parser",
   "main": "index.js",
   "author": "T.E.A de Souza",
@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "tree-sitter-cli": "^0.16.9"
-  }
+  },
+  "scripts": {
+    "install": "prebuild-install || node-gyp rebuild",
+    "build": "tree-sitter generate && node-gyp build",
+  },
 }
