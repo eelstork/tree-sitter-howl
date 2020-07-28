@@ -8,9 +8,9 @@
 #define LANGUAGE_VERSION 11
 #define STATE_COUNT 5
 #define LARGE_STATE_COUNT 4
-#define SYMBOL_COUNT 6
+#define SYMBOL_COUNT 7
 #define ALIAS_COUNT 0
-#define TOKEN_COUNT 3
+#define TOKEN_COUNT 4
 #define EXTERNAL_TOKEN_COUNT 0
 #define FIELD_COUNT 0
 #define MAX_ALIAS_SEQUENCE_LENGTH 2
@@ -18,15 +18,17 @@
 enum {
   sym_identifier = 1,
   sym_return = 2,
-  sym_source_file = 3,
-  sym__definition = 4,
-  aux_sym_source_file_repeat1 = 5,
+  sym_verbatim_string_literal = 3,
+  sym_source_file = 4,
+  sym__definition = 5,
+  aux_sym_source_file_repeat1 = 6,
 };
 
 static const char *ts_symbol_names[] = {
   [ts_builtin_sym_end] = "end",
   [sym_identifier] = "identifier",
   [sym_return] = "return",
+  [sym_verbatim_string_literal] = "verbatim_string_literal",
   [sym_source_file] = "source_file",
   [sym__definition] = "_definition",
   [aux_sym_source_file_repeat1] = "source_file_repeat1",
@@ -36,6 +38,7 @@ static TSSymbol ts_symbol_map[] = {
   [ts_builtin_sym_end] = ts_builtin_sym_end,
   [sym_identifier] = sym_identifier,
   [sym_return] = sym_return,
+  [sym_verbatim_string_literal] = sym_verbatim_string_literal,
   [sym_source_file] = sym_source_file,
   [sym__definition] = sym__definition,
   [aux_sym_source_file_repeat1] = aux_sym_source_file_repeat1,
@@ -51,6 +54,10 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .named = true,
   },
   [sym_return] = {
+    .visible = true,
+    .named = true,
+  },
+  [sym_verbatim_string_literal] = {
     .visible = true,
     .named = true,
   },
@@ -77,19 +84,31 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
   eof = lexer->eof(lexer);
   switch (state) {
     case 0:
-      if (eof) ADVANCE(1);
+      if (eof) ADVANCE(3);
+      if (lookahead == '@') ADVANCE(1);
       if (lookahead == '\t' ||
           lookahead == '\n' ||
           lookahead == '\r' ||
           lookahead == ' ') SKIP(0)
-      if (('a' <= lookahead && lookahead <= 'z')) ADVANCE(2);
+      if (('a' <= lookahead && lookahead <= 'z')) ADVANCE(4);
       END_STATE();
     case 1:
-      ACCEPT_TOKEN(ts_builtin_sym_end);
+      if (lookahead == '"') ADVANCE(2);
       END_STATE();
     case 2:
+      if (lookahead == '"') ADVANCE(5);
+      if (lookahead != 0) ADVANCE(2);
+      END_STATE();
+    case 3:
+      ACCEPT_TOKEN(ts_builtin_sym_end);
+      END_STATE();
+    case 4:
       ACCEPT_TOKEN(sym_identifier);
-      if (('a' <= lookahead && lookahead <= 'z')) ADVANCE(2);
+      if (('a' <= lookahead && lookahead <= 'z')) ADVANCE(4);
+      END_STATE();
+    case 5:
+      ACCEPT_TOKEN(sym_verbatim_string_literal);
+      if (lookahead == '"') ADVANCE(2);
       END_STATE();
     default:
       return false;
@@ -143,6 +162,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [ts_builtin_sym_end] = ACTIONS(1),
     [sym_identifier] = ACTIONS(1),
     [sym_return] = ACTIONS(1),
+    [sym_verbatim_string_literal] = ACTIONS(1),
   },
   [1] = {
     [sym_source_file] = STATE(4),

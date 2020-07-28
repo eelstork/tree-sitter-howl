@@ -1,11 +1,20 @@
 module.exports = grammar({
 
-        name: 'Howl', word: $ => $.identifier, rules: {
+  name: 'Howl',
+  word: $ => $.identifier,
 
-            source_file: $ => repeat($._definition),
-            _definition: $ => choice($.return, $.identifier),
-            return     : $ => 'return',
-            identifier : $ => /[a-z]+/,
+  rules: {
+    source_file: $ => repeat($._definition),
+    _definition: $ => choice($.return, $.identifier),
+    return     : $ => 'return',
+    identifier : $ => /[a-z]+/,
 
-        }
+    verbatim_string_literal: $ => token(seq(
+      '@"',
+      repeat(choice( /[^"]/, '""', )),
+      '"'
+    ))
+
+  }
+
 });
