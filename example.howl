@@ -1,4 +1,6 @@
-[;]class Foo
+12 [;]class null Foo false
   ⤴ return @"my litt" /* hey */ $"bar"
   // what?
-  +hello end
+  50ul
+  'c'  23.34
+  +hello end 9898
