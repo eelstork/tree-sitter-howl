@@ -6,7 +6,7 @@ module.exports = grammar({
   rules: {
 
     Σ   : $ => repeat($._e),
-    _e  : $ => choice($.str, $.id),
+    _e  : $ => choice($.comment, $.str, $.id),
     id  : $ => /[^\s"]+/,
 
     str : $ => token(seq(
