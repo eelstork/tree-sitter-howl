@@ -2,11 +2,18 @@ using System;
 ⊐̥ System.Math;
 using static System.Math;
 
+// Cat
+class interface struct enum
+
+// Keywords
+using, return, int, bool, string, char, float, double
+⊐̥, ㅇ, ㄹ, ᆞ
+
 ⊓ Active.Howl{
 
 /* Sample Type */
 
-‒ ○ class interface struct enum Block{
+‒ ○ Block{
 
     Def def;
 

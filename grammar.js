@@ -32,8 +32,9 @@ module.exports = grammar({
       seq( '//', /.*/ ),
       seq( '/*', repeat(choice(/[^*]/, /\*[^/]/ )), '*/' )  )),
 
-    key: $ => choice('using', 'return',
-                     '⊐̥'),
+    key: $ => choice('using', 'return', 'int', 'bool', 'string', 'char',
+                     'float', 'double',
+                     '⊐̥', 'ㅇ', 'ㄹ', 'ᆞ'),
 
     sym: $ => choice('⤴', '⤵', '⊓', '⮐', '⌢', '→', '⨕',
          '∀', '∈'),

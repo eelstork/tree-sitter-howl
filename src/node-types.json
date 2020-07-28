@@ -117,12 +117,24 @@
     "named": false
   },
   {
+    "type": "bool",
+    "named": false
+  },
+  {
+    "type": "char",
+    "named": false
+  },
+  {
     "type": "class",
     "named": false
   },
   {
     "type": "comment",
     "named": true
+  },
+  {
+    "type": "double",
+    "named": false
   },
   {
     "type": "enum",
@@ -137,8 +149,16 @@
     "named": false
   },
   {
+    "type": "float",
+    "named": false
+  },
+  {
     "type": "id",
     "named": true
+  },
+  {
+    "type": "int",
+    "named": false
   },
   {
     "type": "int",
@@ -185,6 +205,10 @@
     "named": true
   },
   {
+    "type": "string",
+    "named": false
+  },
+  {
     "type": "struct",
     "named": false
   },
@@ -198,6 +222,10 @@
   },
   {
     "type": "var",
+    "named": false
+  },
+  {
+    "type": "ᆞ",
     "named": false
   },
   {
@@ -254,6 +282,14 @@
   },
   {
     "type": "⮐",
+    "named": false
+  },
+  {
+    "type": "ㄹ",
+    "named": false
+  },
+  {
+    "type": "ㅇ",
     "named": false
   }
 ]

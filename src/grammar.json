@@ -195,7 +195,43 @@
         },
         {
           "type": "STRING",
+          "value": "int"
+        },
+        {
+          "type": "STRING",
+          "value": "bool"
+        },
+        {
+          "type": "STRING",
+          "value": "string"
+        },
+        {
+          "type": "STRING",
+          "value": "char"
+        },
+        {
+          "type": "STRING",
+          "value": "float"
+        },
+        {
+          "type": "STRING",
+          "value": "double"
+        },
+        {
+          "type": "STRING",
           "value": "⊐̥"
+        },
+        {
+          "type": "STRING",
+          "value": "ㅇ"
+        },
+        {
+          "type": "STRING",
+          "value": "ㄹ"
+        },
+        {
+          "type": "STRING",
+          "value": "ᆞ"
         }
       ]
     },
