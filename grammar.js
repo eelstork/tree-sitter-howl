@@ -11,7 +11,14 @@ module.exports = grammar({
   rules: {
 
     Σ   : $ => repeat($._e),
-    _e  : $ => choice($.sym, $.key, $.comment, $.z, $._lit, $.id),
+    _e  : $ => choice($.mod, $.cat, $.sym, $.key, $.comment, $.z, $._lit,
+                      $.id),
+
+    mod : $ => choice('public', 'internal', 'protected', 'private', 'static',
+                      '‒', '‒̥'),
+
+    cat : $ => choice('class', 'interface', 'struct', 'enum', 'var',
+                      '○'),
 
     // Here this is [any letter][any letter or digit],
     // similar to /[a-zA-Z_][a-zA-Z_0-9]*/ but with foreign
@@ -25,9 +32,10 @@ module.exports = grammar({
       seq( '//', /.*/ ),
       seq( '/*', repeat(choice(/[^*]/, /\*[^/]/ )), '*/' )  )),
 
-    key: $ => choice('class', 'return', 'end'),
+    key: $ => choice('using', 'return',
+                     '⊐̥'),
 
-    sym: $ => choice('⤴', '⤵', '⊓', '‒', '○', '‒̥', '⮐', '⌢', '‒', '→', '⨕',
+    sym: $ => choice('⤴', '⤵', '⊓', '⮐', '⌢', '→', '⨕',
          '∀', '∈'),
 
     // Match 'common' special characters, ie punctuation,

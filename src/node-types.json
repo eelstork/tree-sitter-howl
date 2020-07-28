@@ -5,6 +5,11 @@
     "fields": {}
   },
   {
+    "type": "cat",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "char",
     "named": true,
     "fields": {},
@@ -21,6 +26,11 @@
   },
   {
     "type": "key",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "mod",
     "named": true,
     "fields": {}
   },
@@ -52,6 +62,10 @@
           "named": true
         },
         {
+          "type": "cat",
+          "named": true
+        },
+        {
           "type": "char",
           "named": true
         },
@@ -69,6 +83,10 @@
         },
         {
           "type": "key",
+          "named": true
+        },
+        {
+          "type": "mod",
           "named": true
         },
         {
@@ -107,7 +125,7 @@
     "named": true
   },
   {
-    "type": "end",
+    "type": "enum",
     "named": false
   },
   {
@@ -127,7 +145,27 @@
     "named": true
   },
   {
+    "type": "interface",
+    "named": false
+  },
+  {
+    "type": "internal",
+    "named": false
+  },
+  {
     "type": "null",
+    "named": false
+  },
+  {
+    "type": "private",
+    "named": false
+  },
+  {
+    "type": "protected",
+    "named": false
+  },
+  {
+    "type": "public",
     "named": false
   },
   {
@@ -139,11 +177,27 @@
     "named": false
   },
   {
+    "type": "static",
+    "named": false
+  },
+  {
     "type": "str",
     "named": true
   },
   {
+    "type": "struct",
+    "named": false
+  },
+  {
     "type": "true",
+    "named": false
+  },
+  {
+    "type": "using",
+    "named": false
+  },
+  {
+    "type": "var",
     "named": false
   },
   {
@@ -168,6 +222,10 @@
   },
   {
     "type": "∈",
+    "named": false
+  },
+  {
+    "type": "⊐̥",
     "named": false
   },
   {

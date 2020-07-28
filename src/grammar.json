@@ -14,6 +14,14 @@
       "members": [
         {
           "type": "SYMBOL",
+          "name": "mod"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "cat"
+        },
+        {
+          "type": "SYMBOL",
           "name": "sym"
         },
         {
@@ -35,6 +43,68 @@
         {
           "type": "SYMBOL",
           "name": "id"
+        }
+      ]
+    },
+    "mod": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "public"
+        },
+        {
+          "type": "STRING",
+          "value": "internal"
+        },
+        {
+          "type": "STRING",
+          "value": "protected"
+        },
+        {
+          "type": "STRING",
+          "value": "private"
+        },
+        {
+          "type": "STRING",
+          "value": "static"
+        },
+        {
+          "type": "STRING",
+          "value": "‒"
+        },
+        {
+          "type": "STRING",
+          "value": "‒̥"
+        }
+      ]
+    },
+    "cat": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "class"
+        },
+        {
+          "type": "STRING",
+          "value": "interface"
+        },
+        {
+          "type": "STRING",
+          "value": "struct"
+        },
+        {
+          "type": "STRING",
+          "value": "enum"
+        },
+        {
+          "type": "STRING",
+          "value": "var"
+        },
+        {
+          "type": "STRING",
+          "value": "○"
         }
       ]
     },
@@ -117,7 +187,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "class"
+          "value": "using"
         },
         {
           "type": "STRING",
@@ -125,7 +195,7 @@
         },
         {
           "type": "STRING",
-          "value": "end"
+          "value": "⊐̥"
         }
       ]
     },
@@ -146,27 +216,11 @@
         },
         {
           "type": "STRING",
-          "value": "‒"
-        },
-        {
-          "type": "STRING",
-          "value": "○"
-        },
-        {
-          "type": "STRING",
-          "value": "‒̥"
-        },
-        {
-          "type": "STRING",
           "value": "⮐"
         },
         {
           "type": "STRING",
           "value": "⌢"
-        },
-        {
-          "type": "STRING",
-          "value": "‒"
         },
         {
           "type": "STRING",
