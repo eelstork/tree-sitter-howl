@@ -14,6 +14,10 @@
       "members": [
         {
           "type": "SYMBOL",
+          "name": "sym"
+        },
+        {
+          "type": "SYMBOL",
           "name": "key"
         },
         {
@@ -126,6 +130,23 @@
         {
           "type": "STRING",
           "value": "return"
+        },
+        {
+          "type": "STRING",
+          "value": "end"
+        }
+      ]
+    },
+    "sym": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "⤴"
+        },
+        {
+          "type": "STRING",
+          "value": "⤵"
         }
       ]
     }

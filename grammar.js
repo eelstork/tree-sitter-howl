@@ -6,7 +6,7 @@ module.exports = grammar({
   rules: {
 
     Σ   : $ => repeat($._e),
-    _e  : $ => choice($.key, $.comment, $.str, $.id),
+    _e  : $ => choice($.sym, $.key, $.comment, $.str, $.id),
     id  : $ => /[^\s"]+/,
 
     str : $ => token(seq(
@@ -16,7 +16,9 @@ module.exports = grammar({
       seq( '//', /.*/ ),
       seq( '/*', repeat(choice(/[^*]/, /\*[^/]/ )), '*/' )  )),
 
-    key: $ => choice('class', 'return')
+    key: $ => choice('class', 'return', 'end'),
+
+    sym: $ => choice('⤴', '⤵')
 
   }
 

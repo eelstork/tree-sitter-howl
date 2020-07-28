@@ -5,6 +5,11 @@
     "fields": {}
   },
   {
+    "type": "sym",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "Σ",
     "named": true,
     "fields": {},
@@ -27,6 +32,10 @@
         {
           "type": "str",
           "named": true
+        },
+        {
+          "type": "sym",
+          "named": true
         }
       ]
     }
@@ -40,6 +49,10 @@
     "named": true
   },
   {
+    "type": "end",
+    "named": false
+  },
+  {
     "type": "id",
     "named": true
   },
@@ -50,5 +63,13 @@
   {
     "type": "str",
     "named": true
+  },
+  {
+    "type": "⤴",
+    "named": false
+  },
+  {
+    "type": "⤵",
+    "named": false
   }
 ]
