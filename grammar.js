@@ -3,11 +3,6 @@ module.exports = grammar({
   name: 'Howl',
   word: $ => $.id,
 
-  //extras: $ => [
-  //    $.comment,
-  //    /[\s\u00A0\uFEFF\u3000]+/,
-  //],
-
   rules: {
 
     Σ   : $ => repeat($._e),
