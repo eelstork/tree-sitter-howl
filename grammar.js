@@ -6,8 +6,14 @@ module.exports = grammar({
   rules: {
 
     Σ   : $ => repeat($._e),
-    _e  : $ => choice($.sym, $.key, $.comment, $._lit, $.z, $.id),
+    _e  : $ => choice($.sym, $.key, $.comment, $.z, $._lit, $.id),
+
     id  : $ => /[\u00C0-\u1FFF\u2C00-\uD7FF\w]+/,
+
+    //id  : $ => token(seq(
+    //  optional('@'),
+    //  /[a-zA-Z_][a-zA-Z_0-9]*/
+    //)),
 
     comment: $ => token(choice(
       seq( '//', /.*/ ),

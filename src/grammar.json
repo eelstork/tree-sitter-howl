@@ -26,11 +26,11 @@
         },
         {
           "type": "SYMBOL",
-          "name": "_lit"
+          "name": "z"
         },
         {
           "type": "SYMBOL",
-          "name": "z"
+          "name": "_lit"
         },
         {
           "type": "SYMBOL",
