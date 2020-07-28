@@ -14,5 +14,5 @@
   "scripts": {
     "build": "tree-sitter generate && node-gyp build",
     "install": "prebuild-install || node-gyp rebuild"
-  },
+  }
 }
