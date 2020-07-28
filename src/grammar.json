@@ -39,8 +39,28 @@
       ]
     },
     "id": {
-      "type": "PATTERN",
-      "value": "[\\u00C0-\\u1FFF\\u2C00-\\uD7FF\\w]+"
+      "type": "TOKEN",
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "STRING",
+                "value": "@"
+              },
+              {
+                "type": "BLANK"
+              }
+            ]
+          },
+          {
+            "type": "PATTERN",
+            "value": "[\\u00C0-\\u1FFF\\u2C00-\\uD7FFa-zA-Z][\\u00C0-\\u1FFF\\u2C00-\\uD7FF\\w]*"
+          }
+        ]
+      }
     },
     "comment": {
       "type": "TOKEN",

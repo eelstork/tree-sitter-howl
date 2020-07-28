@@ -8,12 +8,13 @@ module.exports = grammar({
     Σ   : $ => repeat($._e),
     _e  : $ => choice($.sym, $.key, $.comment, $.z, $._lit, $.id),
 
-    id  : $ => /[\u00C0-\u1FFF\u2C00-\uD7FF\w]+/,
-
-    //id  : $ => token(seq(
-    //  optional('@'),
-    //  /[a-zA-Z_][a-zA-Z_0-9]*/
-    //)),
+    // Here this is [any letter][any letter or digit],
+    // similar to /[a-zA-Z_][a-zA-Z_0-9]*/ but with foreign
+    // characters added.
+    id  : $ => token(seq(
+      optional('@'),
+      /[\u00C0-\u1FFF\u2C00-\uD7FFa-zA-Z][\u00C0-\u1FFF\u2C00-\uD7FF\w]*/,
+    )),
 
     comment: $ => token(choice(
       seq( '//', /.*/ ),
