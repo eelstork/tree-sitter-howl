@@ -8,10 +8,16 @@ module.exports = grammar({
     Σ   : $ => repeat($._e),
     _e  : $ => choice($.str, $.id),
     id  : $ => /[^\s"]+/,
+
     str : $ => token(seq(
-            '"', repeat(choice( /[^"]/, '""' )), '"'
-          ))
-    //return     : $ => 'return',
+      '"', repeat(choice( /[^"]/, '""' )), '"'  )),
+
+    comment: $ => token(choice(
+      seq( '//', /.*/ ),
+      seq( '/*', repeat(choice(/[^*]/, /\*[^/]/ )), '*/' )  )),
+
+       //return     : $ => 'return',
+
 
   }
 
