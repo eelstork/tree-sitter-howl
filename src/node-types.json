@@ -25,6 +25,11 @@
     "fields": {}
   },
   {
+    "type": "null",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "sym",
     "named": true,
     "fields": {}
@@ -123,7 +128,7 @@
   },
   {
     "type": "null",
-    "named": true
+    "named": false
   },
   {
     "type": "real",
@@ -142,11 +147,55 @@
     "named": false
   },
   {
+    "type": "‒",
+    "named": false
+  },
+  {
+    "type": "‒̥",
+    "named": false
+  },
+  {
+    "type": "→",
+    "named": false
+  },
+  {
+    "type": "∀",
+    "named": false
+  },
+  {
+    "type": "∅",
+    "named": false
+  },
+  {
+    "type": "∈",
+    "named": false
+  },
+  {
+    "type": "⊓",
+    "named": false
+  },
+  {
+    "type": "⌢",
+    "named": false
+  },
+  {
+    "type": "○",
+    "named": false
+  },
+  {
     "type": "⤴",
     "named": false
   },
   {
     "type": "⤵",
+    "named": false
+  },
+  {
+    "type": "⨕",
+    "named": false
+  },
+  {
+    "type": "⮐",
     "named": false
   }
 ]

@@ -27,7 +27,8 @@ module.exports = grammar({
 
     key: $ => choice('class', 'return', 'end'),
 
-    sym: $ => choice('⤴', '⤵'),
+    sym: $ => choice('⤴', '⤵', '⊓', '‒', '○', '‒̥', '⮐', '⌢', '‒', '→', '⨕',
+         '∀', '∈'),
 
     // Match 'common' special characters, ie punctuation,
     // operators, brackets... in the ASCII range
@@ -66,7 +67,7 @@ module.exports = grammar({
      optional(/u|U|l|L|ul|UL|uL|Ul|lu|LU|Lu|lU/)
    )),
 
-   null: $ => 'null',
+   null: $ => choice('null', '∅'),
 
    real: $ => {
      const suffix = /[fFdDmM]/;

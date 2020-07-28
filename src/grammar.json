@@ -139,6 +139,50 @@
         {
           "type": "STRING",
           "value": "⤵"
+        },
+        {
+          "type": "STRING",
+          "value": "⊓"
+        },
+        {
+          "type": "STRING",
+          "value": "‒"
+        },
+        {
+          "type": "STRING",
+          "value": "○"
+        },
+        {
+          "type": "STRING",
+          "value": "‒̥"
+        },
+        {
+          "type": "STRING",
+          "value": "⮐"
+        },
+        {
+          "type": "STRING",
+          "value": "⌢"
+        },
+        {
+          "type": "STRING",
+          "value": "‒"
+        },
+        {
+          "type": "STRING",
+          "value": "→"
+        },
+        {
+          "type": "STRING",
+          "value": "⨕"
+        },
+        {
+          "type": "STRING",
+          "value": "∀"
+        },
+        {
+          "type": "STRING",
+          "value": "∈"
         }
       ]
     },
@@ -324,8 +368,17 @@
       }
     },
     "null": {
-      "type": "STRING",
-      "value": "null"
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "null"
+        },
+        {
+          "type": "STRING",
+          "value": "∅"
+        }
+      ]
     },
     "real": {
       "type": "TOKEN",
