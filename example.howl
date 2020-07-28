@@ -1,4 +1,4 @@
 class Foo
   ⤴ return @"my litt" /* hey */ $"bar"
   // what?
-  ⤵ hello end
+  ⤵hello end
