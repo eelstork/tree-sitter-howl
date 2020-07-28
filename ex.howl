@@ -9,6 +9,11 @@ class interface struct enum
 using, return, int, bool, string, char, float, double
 ⊐̥, ㅇ, ㄹ, ᆞ
 
+// Constants
+true, false
+
+// Control flow
+
 ⊓ Active.Howl{
 
 /* Sample Type */

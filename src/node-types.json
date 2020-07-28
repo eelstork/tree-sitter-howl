@@ -25,6 +25,11 @@
     }
   },
   {
+    "type": "flow",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "key",
     "named": true,
     "fields": {}
@@ -74,6 +79,10 @@
           "named": true
         },
         {
+          "type": "flow",
+          "named": true
+        },
+        {
           "type": "id",
           "named": true
         },
@@ -117,7 +126,27 @@
     "named": false
   },
   {
+    "type": "(˙▿˙)",
+    "named": false
+  },
+  {
+    "type": "(╯°□°)╯",
+    "named": false
+  },
+  {
     "type": "bool",
+    "named": false
+  },
+  {
+    "type": "break",
+    "named": false
+  },
+  {
+    "type": "case",
+    "named": false
+  },
+  {
+    "type": "catch",
     "named": false
   },
   {
@@ -133,7 +162,15 @@
     "named": true
   },
   {
+    "type": "do",
+    "named": false
+  },
+  {
     "type": "double",
+    "named": false
+  },
+  {
+    "type": "else",
     "named": false
   },
   {
@@ -149,12 +186,36 @@
     "named": false
   },
   {
+    "type": "finally",
+    "named": false
+  },
+  {
     "type": "float",
+    "named": false
+  },
+  {
+    "type": "for",
+    "named": false
+  },
+  {
+    "type": "foreach",
+    "named": false
+  },
+  {
+    "type": "from",
     "named": false
   },
   {
     "type": "id",
     "named": true
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "in",
+    "named": false
   },
   {
     "type": "int",
@@ -197,6 +258,10 @@
     "named": false
   },
   {
+    "type": "select",
+    "named": false
+  },
+  {
     "type": "static",
     "named": false
   },
@@ -213,7 +278,19 @@
     "named": false
   },
   {
+    "type": "switch",
+    "named": false
+  },
+  {
+    "type": "throw",
+    "named": false
+  },
+  {
     "type": "true",
+    "named": false
+  },
+  {
+    "type": "try",
     "named": false
   },
   {
@@ -225,7 +302,27 @@
     "named": false
   },
   {
+    "type": "where",
+    "named": false
+  },
+  {
+    "type": "while",
+    "named": false
+  },
+  {
+    "type": "yield",
+    "named": false
+  },
+  {
+    "type": "¿",
+    "named": false
+  },
+  {
     "type": "ᆞ",
+    "named": false
+  },
+  {
+    "type": "፥",
     "named": false
   },
   {
@@ -237,7 +334,19 @@
     "named": false
   },
   {
+    "type": "‖",
+    "named": false
+  },
+  {
     "type": "→",
+    "named": false
+  },
+  {
+    "type": "↯",
+    "named": false
+  },
+  {
+    "type": "⇤",
     "named": false
   },
   {

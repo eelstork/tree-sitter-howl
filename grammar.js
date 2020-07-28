@@ -11,7 +11,7 @@ module.exports = grammar({
   rules: {
 
     Σ   : $ => repeat($._e),
-    _e  : $ => choice($.mod, $.cat, $.sym, $.key, $.comment, $.z, $._lit,
+    _e  : $ => choice($.mod, $.cat, $.flow, $.sym, $.key, $.comment, $.z, $._lit,
                       $.id),
 
     mod : $ => choice('public', 'internal', 'protected', 'private', 'static',
@@ -19,6 +19,12 @@ module.exports = grammar({
 
     cat : $ => choice('class', 'interface', 'struct', 'enum', 'var',
                       '○'),
+
+    flow: $ => choice('if', 'else', 'foreach', 'in', 'for', 'do', 'while',
+                      'switch', 'case', 'break', 'return', 'yield', 'try',
+                      'catch', 'finally', 'from', 'where', 'select', 'throw',
+                      '⤴', '⤵', '⮐', '(˙▿˙)', '↯', '⇤', '(╯°□°)╯', '‖', '¿',
+                      '፥', '∀', '∈'),
 
     // Here this is [any letter][any letter or digit],
     // similar to /[a-zA-Z_][a-zA-Z_0-9]*/ but with foreign
@@ -32,12 +38,11 @@ module.exports = grammar({
       seq( '//', /.*/ ),
       seq( '/*', repeat(choice(/[^*]/, /\*[^/]/ )), '*/' )  )),
 
-    key: $ => choice('using', 'return', 'int', 'bool', 'string', 'char',
+    key: $ => choice('using', 'int', 'bool', 'string', 'char',
                      'float', 'double',
                      '⊐̥', 'ㅇ', 'ㄹ', 'ᆞ'),
 
-    sym: $ => choice('⤴', '⤵', '⊓', '⮐', '⌢', '→', '⨕',
-         '∀', '∈'),
+    sym: $ => choice('⊓', '⌢', '→', '⨕'),
 
     // Match 'common' special characters, ie punctuation,
     // operators, brackets... in the ASCII range
