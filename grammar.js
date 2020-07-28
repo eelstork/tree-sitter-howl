@@ -7,9 +7,9 @@ module.exports = grammar({
 
     Σ   : $ => repeat($._e),
     _e  : $ => choice($.str, $.id),
-    id  : $ => /[a-z]+/,
+    id  : $ => /[^\s"]+/,
     str : $ => token(seq(
-        '@"', repeat(choice( /[^"]/, '""', )), '"'
+        '"', repeat(choice( /[^"]/, '""', )), '"'
     ))
     //return     : $ => 'return',
 

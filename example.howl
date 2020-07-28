@@ -1,2 +1,2 @@
-return @"my litt"
+return @"my litt" $"bar"
 hello

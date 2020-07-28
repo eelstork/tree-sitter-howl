@@ -77,31 +77,33 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
   eof = lexer->eof(lexer);
   switch (state) {
     case 0:
-      if (eof) ADVANCE(3);
-      if (lookahead == '@') ADVANCE(1);
+      if (eof) ADVANCE(2);
+      if (lookahead == '"') ADVANCE(1);
       if (lookahead == '\t' ||
           lookahead == '\n' ||
           lookahead == '\r' ||
           lookahead == ' ') SKIP(0)
-      if (('a' <= lookahead && lookahead <= 'z')) ADVANCE(4);
+      if (lookahead != 0) ADVANCE(3);
       END_STATE();
     case 1:
-      if (lookahead == '"') ADVANCE(2);
+      if (lookahead == '"') ADVANCE(4);
+      if (lookahead != 0) ADVANCE(1);
       END_STATE();
     case 2:
-      if (lookahead == '"') ADVANCE(5);
-      if (lookahead != 0) ADVANCE(2);
-      END_STATE();
-    case 3:
       ACCEPT_TOKEN(ts_builtin_sym_end);
       END_STATE();
-    case 4:
+    case 3:
       ACCEPT_TOKEN(sym_id);
-      if (('a' <= lookahead && lookahead <= 'z')) ADVANCE(4);
+      if (lookahead != 0 &&
+          lookahead != '\t' &&
+          lookahead != '\n' &&
+          lookahead != '\r' &&
+          lookahead != ' ' &&
+          lookahead != '"') ADVANCE(3);
       END_STATE();
-    case 5:
+    case 4:
       ACCEPT_TOKEN(sym_str);
-      if (lookahead == '"') ADVANCE(2);
+      if (lookahead == '"') ADVANCE(1);
       END_STATE();
     default:
       return false;

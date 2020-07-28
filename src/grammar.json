@@ -24,7 +24,7 @@
     },
     "id": {
       "type": "PATTERN",
-      "value": "[a-z]+"
+      "value": "[^\\s\"]+"
     },
     "str": {
       "type": "TOKEN",
@@ -33,7 +33,7 @@
         "members": [
           {
             "type": "STRING",
-            "value": "@\""
+            "value": "\""
           },
           {
             "type": "REPEAT",
