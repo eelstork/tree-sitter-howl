@@ -1,6 +1,41 @@
 [
   {
-    "type": "source_file",
+    "type": "bool",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "char",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "escape_sequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "key",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "sym",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "z",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "Σ",
     "named": true,
     "fields": {},
     "children": {
@@ -8,22 +43,110 @@
       "required": false,
       "types": [
         {
-          "type": "identifier",
+          "type": "bool",
           "named": true
         },
         {
-          "type": "return",
+          "type": "char",
+          "named": true
+        },
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "id",
+          "named": true
+        },
+        {
+          "type": "int",
+          "named": true
+        },
+        {
+          "type": "key",
+          "named": true
+        },
+        {
+          "type": "null",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "str",
+          "named": true
+        },
+        {
+          "type": "sym",
+          "named": true
+        },
+        {
+          "type": "z",
           "named": true
         }
       ]
     }
   },
   {
-    "type": "identifier",
+    "type": "'",
+    "named": false
+  },
+  {
+    "type": "class",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "end",
+    "named": false
+  },
+  {
+    "type": "escape_sequence",
+    "named": true
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "id",
+    "named": true
+  },
+  {
+    "type": "int",
+    "named": true
+  },
+  {
+    "type": "null",
+    "named": true
+  },
+  {
+    "type": "real",
     "named": true
   },
   {
     "type": "return",
+    "named": false
+  },
+  {
+    "type": "str",
     "named": true
+  },
+  {
+    "type": "true",
+    "named": false
+  },
+  {
+    "type": "⤴",
+    "named": false
+  },
+  {
+    "type": "⤵",
+    "named": false
   }
 ]
