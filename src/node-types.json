@@ -10,6 +10,11 @@
     "fields": {}
   },
   {
+    "type": "z",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "Σ",
     "named": true,
     "fields": {},
@@ -35,6 +40,10 @@
         },
         {
           "type": "sym",
+          "named": true
+        },
+        {
+          "type": "z",
           "named": true
         }
       ]

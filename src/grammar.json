@@ -14,6 +14,10 @@
       "members": [
         {
           "type": "SYMBOL",
+          "name": "z"
+        },
+        {
+          "type": "SYMBOL",
           "name": "sym"
         },
         {
@@ -36,7 +40,7 @@
     },
     "id": {
       "type": "PATTERN",
-      "value": "[^\\s\"]+"
+      "value": "[\\u00C0-\\u1FFF\\u2C00-\\uD7FF\\w]+"
     },
     "str": {
       "type": "TOKEN",
@@ -147,6 +151,23 @@
         {
           "type": "STRING",
           "value": "⤵"
+        }
+      ]
+    },
+    "z": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "PATTERN",
+          "value": "[!-@]"
+        },
+        {
+          "type": "PATTERN",
+          "value": "[\\x5b-\\x60]"
+        },
+        {
+          "type": "PATTERN",
+          "value": "[\\x7b-\\x7d]"
         }
       ]
     }
