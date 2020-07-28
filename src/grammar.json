@@ -14,6 +14,10 @@
       "members": [
         {
           "type": "SYMBOL",
+          "name": "key"
+        },
+        {
+          "type": "SYMBOL",
           "name": "comment"
         },
         {
@@ -111,6 +115,19 @@
           }
         ]
       }
+    },
+    "key": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "class"
+        },
+        {
+          "type": "STRING",
+          "value": "return"
+        }
+      ]
     }
   },
   "extras": [
