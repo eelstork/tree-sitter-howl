@@ -5,6 +5,11 @@
     "fields": {}
   },
   {
+    "type": "bt",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "cat",
     "named": true,
     "fields": {}
@@ -45,7 +50,12 @@
     "fields": {}
   },
   {
-    "type": "sym",
+    "type": "op",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "prim",
     "named": true,
     "fields": {}
   },
@@ -64,6 +74,10 @@
       "types": [
         {
           "type": "bool",
+          "named": true
+        },
+        {
+          "type": "bt",
           "named": true
         },
         {
@@ -103,15 +117,19 @@
           "named": true
         },
         {
+          "type": "op",
+          "named": true
+        },
+        {
+          "type": "prim",
+          "named": true
+        },
+        {
           "type": "real",
           "named": true
         },
         {
           "type": "str",
-          "named": true
-        },
-        {
-          "type": "sym",
           "named": true
         },
         {
@@ -134,11 +152,47 @@
     "named": false
   },
   {
+    "type": "abstract",
+    "named": false
+  },
+  {
+    "type": "add",
+    "named": false
+  },
+  {
+    "type": "as",
+    "named": false
+  },
+  {
+    "type": "ascending",
+    "named": false
+  },
+  {
+    "type": "async",
+    "named": false
+  },
+  {
+    "type": "await",
+    "named": false
+  },
+  {
+    "type": "base",
+    "named": false
+  },
+  {
     "type": "bool",
     "named": false
   },
   {
     "type": "break",
+    "named": false
+  },
+  {
+    "type": "by",
+    "named": false
+  },
+  {
+    "type": "byte",
     "named": false
   },
   {
@@ -154,6 +208,10 @@
     "named": false
   },
   {
+    "type": "checked",
+    "named": false
+  },
+  {
     "type": "class",
     "named": false
   },
@@ -162,11 +220,39 @@
     "named": true
   },
   {
+    "type": "const",
+    "named": false
+  },
+  {
+    "type": "continue",
+    "named": false
+  },
+  {
+    "type": "decimal",
+    "named": false
+  },
+  {
+    "type": "default",
+    "named": false
+  },
+  {
+    "type": "delegate",
+    "named": false
+  },
+  {
+    "type": "descending",
+    "named": false
+  },
+  {
     "type": "do",
     "named": false
   },
   {
     "type": "double",
+    "named": false
+  },
+  {
+    "type": "dynamic",
     "named": false
   },
   {
@@ -178,8 +264,20 @@
     "named": false
   },
   {
+    "type": "equals",
+    "named": false
+  },
+  {
     "type": "escape_sequence",
     "named": true
+  },
+  {
+    "type": "explicit",
+    "named": false
+  },
+  {
+    "type": "extern",
+    "named": false
   },
   {
     "type": "false",
@@ -187,6 +285,10 @@
   },
   {
     "type": "finally",
+    "named": false
+  },
+  {
+    "type": "fixed",
     "named": false
   },
   {
@@ -206,11 +308,31 @@
     "named": false
   },
   {
+    "type": "get",
+    "named": false
+  },
+  {
+    "type": "global",
+    "named": false
+  },
+  {
+    "type": "goto",
+    "named": false
+  },
+  {
+    "type": "group",
+    "named": false
+  },
+  {
     "type": "id",
     "named": true
   },
   {
     "type": "if",
+    "named": false
+  },
+  {
+    "type": "implicit",
     "named": false
   },
   {
@@ -234,7 +356,67 @@
     "named": false
   },
   {
+    "type": "into",
+    "named": false
+  },
+  {
+    "type": "is",
+    "named": false
+  },
+  {
+    "type": "join",
+    "named": false
+  },
+  {
+    "type": "let",
+    "named": false
+  },
+  {
+    "type": "lock",
+    "named": false
+  },
+  {
+    "type": "long",
+    "named": false
+  },
+  {
+    "type": "new",
+    "named": false
+  },
+  {
     "type": "null",
+    "named": false
+  },
+  {
+    "type": "object",
+    "named": false
+  },
+  {
+    "type": "on",
+    "named": false
+  },
+  {
+    "type": "operator",
+    "named": false
+  },
+  {
+    "type": "orderby",
+    "named": false
+  },
+  {
+    "type": "out",
+    "named": false
+  },
+  {
+    "type": "override",
+    "named": false
+  },
+  {
+    "type": "params",
+    "named": false
+  },
+  {
+    "type": "partial",
     "named": false
   },
   {
@@ -250,15 +432,51 @@
     "named": false
   },
   {
+    "type": "readonly",
+    "named": false
+  },
+  {
     "type": "real",
     "named": true
+  },
+  {
+    "type": "ref",
+    "named": false
+  },
+  {
+    "type": "remove",
+    "named": false
   },
   {
     "type": "return",
     "named": false
   },
   {
+    "type": "sbyte",
+    "named": false
+  },
+  {
+    "type": "sealed",
+    "named": false
+  },
+  {
     "type": "select",
+    "named": false
+  },
+  {
+    "type": "set",
+    "named": false
+  },
+  {
+    "type": "short",
+    "named": false
+  },
+  {
+    "type": "sizeof",
+    "named": false
+  },
+  {
+    "type": "stackalloc",
     "named": false
   },
   {
@@ -282,6 +500,10 @@
     "named": false
   },
   {
+    "type": "this",
+    "named": false
+  },
+  {
     "type": "throw",
     "named": false
   },
@@ -294,11 +516,47 @@
     "named": false
   },
   {
+    "type": "typeof",
+    "named": false
+  },
+  {
+    "type": "uint",
+    "named": false
+  },
+  {
+    "type": "ulong",
+    "named": false
+  },
+  {
+    "type": "unchecked",
+    "named": false
+  },
+  {
+    "type": "unsafe",
+    "named": false
+  },
+  {
+    "type": "ushort",
+    "named": false
+  },
+  {
     "type": "using",
     "named": false
   },
   {
+    "type": "value",
+    "named": false
+  },
+  {
     "type": "var",
+    "named": false
+  },
+  {
+    "type": "virtual",
+    "named": false
+  },
+  {
+    "type": "volatile",
     "named": false
   },
   {
@@ -314,7 +572,19 @@
     "named": false
   },
   {
+    "type": "¦",
+    "named": false
+  },
+  {
     "type": "¿",
+    "named": false
+  },
+  {
+    "type": "؟",
+    "named": false
+  },
+  {
+    "type": "৴",
     "named": false
   },
   {
@@ -323,6 +593,26 @@
   },
   {
     "type": "፥",
+    "named": false
+  },
+  {
+    "type": "ᴬ",
+    "named": false
+  },
+  {
+    "type": "ᴸ",
+    "named": false
+  },
+  {
+    "type": "ᴾ",
+    "named": false
+  },
+  {
+    "type": "ᵉ",
+    "named": false
+  },
+  {
+    "type": "ᵛ",
     "named": false
   },
   {
@@ -338,11 +628,39 @@
     "named": false
   },
   {
+    "type": "⁝",
+    "named": false
+  },
+  {
+    "type": "ⁱ",
+    "named": false
+  },
+  {
+    "type": "⁺",
+    "named": false
+  },
+  {
     "type": "→",
     "named": false
   },
   {
+    "type": "↖",
+    "named": false
+  },
+  {
+    "type": "↘",
+    "named": false
+  },
+  {
     "type": "↯",
+    "named": false
+  },
+  {
+    "type": "⇖",
+    "named": false
+  },
+  {
+    "type": "⇘",
     "named": false
   },
   {
@@ -362,6 +680,38 @@
     "named": false
   },
   {
+    "type": "∘",
+    "named": false
+  },
+  {
+    "type": "∙",
+    "named": false
+  },
+  {
+    "type": "∧",
+    "named": false
+  },
+  {
+    "type": "∨",
+    "named": false
+  },
+  {
+    "type": "≠",
+    "named": false
+  },
+  {
+    "type": "≤",
+    "named": false
+  },
+  {
+    "type": "≥",
+    "named": false
+  },
+  {
+    "type": "⊐",
+    "named": false
+  },
+  {
     "type": "⊐̥",
     "named": false
   },
@@ -370,11 +720,143 @@
     "named": false
   },
   {
+    "type": "⊟",
+    "named": false
+  },
+  {
     "type": "⌢",
     "named": false
   },
   {
+    "type": "⌽",
+    "named": false
+  },
+  {
+    "type": "⍉",
+    "named": false
+  },
+  {
+    "type": "⍜",
+    "named": false
+  },
+  {
+    "type": "⎚",
+    "named": false
+  },
+  {
+    "type": "⏚",
+    "named": false
+  },
+  {
+    "type": "⏰",
+    "named": false
+  },
+  {
+    "type": "⑂",
+    "named": false
+  },
+  {
+    "type": "⒜",
+    "named": false
+  },
+  {
+    "type": "⒡",
+    "named": false
+  },
+  {
+    "type": "╌",
+    "named": false
+  },
+  {
+    "type": "╌̥",
+    "named": false
+  },
+  {
+    "type": "╍",
+    "named": false
+  },
+  {
+    "type": "╍̥",
+    "named": false
+  },
+  {
+    "type": "■",
+    "named": false
+  },
+  {
+    "type": "▰",
+    "named": false
+  },
+  {
+    "type": "▰̥",
+    "named": false
+  },
+  {
+    "type": "▶",
+    "named": false
+  },
+  {
+    "type": "▷",
+    "named": false
+  },
+  {
+    "type": "◇",
+    "named": false
+  },
+  {
     "type": "○",
+    "named": false
+  },
+  {
+    "type": "◌",
+    "named": false
+  },
+  {
+    "type": "◠",
+    "named": false
+  },
+  {
+    "type": "◠̥",
+    "named": false
+  },
+  {
+    "type": "☡",
+    "named": false
+  },
+  {
+    "type": "☰",
+    "named": false
+  },
+  {
+    "type": "⛔️",
+    "named": false
+  },
+  {
+    "type": "✓",
+    "named": false
+  },
+  {
+    "type": "✗",
+    "named": false
+  },
+  {
+    "type": "❙",
+    "named": false
+  },
+  {
+    "type": "⟲",
+    "named": false
+  },
+  {
+    "type": "⟳",
+    "named": false
+  },
+  {
+    "type": "⤭",
+    "named": false
+  },
+  {
+    "type": "⤳",
     "named": false
   },
   {
@@ -386,7 +868,27 @@
     "named": false
   },
   {
+    "type": "⥰",
+    "named": false
+  },
+  {
+    "type": "⦿",
+    "named": false
+  },
+  {
     "type": "⨕",
+    "named": false
+  },
+  {
+    "type": "⩜",
+    "named": false
+  },
+  {
+    "type": "⩝",
+    "named": false
+  },
+  {
+    "type": "⫙",
     "named": false
   },
   {
@@ -394,11 +896,79 @@
     "named": false
   },
   {
+    "type": "エ",
+    "named": false
+  },
+  {
+    "type": "シ",
+    "named": false
+  },
+  {
+    "type": "タ",
+    "named": false
+  },
+  {
+    "type": "ト",
+    "named": false
+  },
+  {
+    "type": "フ",
+    "named": false
+  },
+  {
+    "type": "ペ",
+    "named": false
+  },
+  {
+    "type": "メ",
+    "named": false
+  },
+  {
+    "type": "メ̂",
+    "named": false
+  },
+  {
+    "type": "ロ",
+    "named": false
+  },
+  {
     "type": "ㄹ",
     "named": false
   },
   {
+    "type": "ㅅ",
+    "named": false
+  },
+  {
     "type": "ㅇ",
+    "named": false
+  },
+  {
+    "type": "𝕃",
+    "named": false
+  },
+  {
+    "type": "𝕄",
+    "named": false
+  },
+  {
+    "type": "𝕊",
+    "named": false
+  },
+  {
+    "type": "📝",
+    "named": false
+  },
+  {
+    "type": "🔒",
+    "named": false
+  },
+  {
+    "type": "🚸",
+    "named": false
+  },
+  {
+    "type": "🝠",
     "named": false
   }
 ]

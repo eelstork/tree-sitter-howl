@@ -22,11 +22,19 @@
         },
         {
           "type": "SYMBOL",
-          "name": "flow"
+          "name": "op"
         },
         {
           "type": "SYMBOL",
-          "name": "sym"
+          "name": "prim"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "bt"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "flow"
         },
         {
           "type": "SYMBOL",
@@ -47,6 +55,35 @@
         {
           "type": "SYMBOL",
           "name": "id"
+        }
+      ]
+    },
+    "_lit": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "SYMBOL",
+          "name": "null"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "bool"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "char"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "real"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "int"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "str"
         }
       ]
     },
@@ -75,11 +112,135 @@
         },
         {
           "type": "STRING",
-          "value": "‒"
+          "value": "abstract"
+        },
+        {
+          "type": "STRING",
+          "value": "const"
+        },
+        {
+          "type": "STRING",
+          "value": "extern"
+        },
+        {
+          "type": "STRING",
+          "value": "override"
+        },
+        {
+          "type": "STRING",
+          "value": "partial"
+        },
+        {
+          "type": "STRING",
+          "value": "readonly"
+        },
+        {
+          "type": "STRING",
+          "value": "sealed"
+        },
+        {
+          "type": "STRING",
+          "value": "unsafe"
+        },
+        {
+          "type": "STRING",
+          "value": "virtual"
+        },
+        {
+          "type": "STRING",
+          "value": "volatile"
+        },
+        {
+          "type": "STRING",
+          "value": "explicit"
+        },
+        {
+          "type": "STRING",
+          "value": "implicit"
         },
         {
           "type": "STRING",
           "value": "‒̥"
+        },
+        {
+          "type": "STRING",
+          "value": "؟"
+        },
+        {
+          "type": "STRING",
+          "value": "⍜"
+        },
+        {
+          "type": "STRING",
+          "value": "⍉"
+        },
+        {
+          "type": "STRING",
+          "value": "⏚"
+        },
+        {
+          "type": "STRING",
+          "value": "‒"
+        },
+        {
+          "type": "STRING",
+          "value": "╍̥"
+        },
+        {
+          "type": "STRING",
+          "value": "╍"
+        },
+        {
+          "type": "STRING",
+          "value": "◠̥"
+        },
+        {
+          "type": "STRING",
+          "value": "◠"
+        },
+        {
+          "type": "STRING",
+          "value": "╌̥"
+        },
+        {
+          "type": "STRING",
+          "value": "╌"
+        },
+        {
+          "type": "STRING",
+          "value": "▰̥"
+        },
+        {
+          "type": "STRING",
+          "value": "▰"
+        },
+        {
+          "type": "STRING",
+          "value": "ᴬ"
+        },
+        {
+          "type": "STRING",
+          "value": "ᴸ"
+        },
+        {
+          "type": "STRING",
+          "value": "⁺"
+        },
+        {
+          "type": "STRING",
+          "value": "ᴾ"
+        },
+        {
+          "type": "STRING",
+          "value": "∘"
+        },
+        {
+          "type": "STRING",
+          "value": "ᵛ"
+        },
+        {
+          "type": "STRING",
+          "value": "🔒"
         }
       ]
     },
@@ -108,13 +269,102 @@
         },
         {
           "type": "STRING",
+          "value": "delegate"
+        },
+        {
+          "type": "STRING",
+          "value": "⊓"
+        },
+        {
+          "type": "STRING",
           "value": "○"
+        },
+        {
+          "type": "STRING",
+          "value": "◌"
+        },
+        {
+          "type": "STRING",
+          "value": "⊟"
+        }
+      ]
+    },
+    "op": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "🝠"
+        },
+        {
+          "type": "STRING",
+          "value": "⎚"
+        },
+        {
+          "type": "STRING",
+          "value": "→"
+        },
+        {
+          "type": "STRING",
+          "value": "☰"
+        },
+        {
+          "type": "STRING",
+          "value": "≠"
+        },
+        {
+          "type": "STRING",
+          "value": "≥"
+        },
+        {
+          "type": "STRING",
+          "value": "≤"
+        },
+        {
+          "type": "STRING",
+          "value": "∧"
+        },
+        {
+          "type": "STRING",
+          "value": "∨"
+        },
+        {
+          "type": "STRING",
+          "value": "⩜"
+        },
+        {
+          "type": "STRING",
+          "value": "⩝"
+        },
+        {
+          "type": "STRING",
+          "value": "⁝"
+        },
+        {
+          "type": "STRING",
+          "value": "❙"
+        },
+        {
+          "type": "STRING",
+          "value": "৴"
         }
       ]
     },
     "flow": {
       "type": "CHOICE",
       "members": [
+        {
+          "type": "STRING",
+          "value": "async"
+        },
+        {
+          "type": "STRING",
+          "value": "await"
+        },
+        {
+          "type": "STRING",
+          "value": "by"
+        },
         {
           "type": "STRING",
           "value": "if"
@@ -177,6 +427,10 @@
         },
         {
           "type": "STRING",
+          "value": "continue"
+        },
+        {
+          "type": "STRING",
           "value": "from"
         },
         {
@@ -193,6 +447,26 @@
         },
         {
           "type": "STRING",
+          "value": "join"
+        },
+        {
+          "type": "STRING",
+          "value": "goto"
+        },
+        {
+          "type": "STRING",
+          "value": "lock"
+        },
+        {
+          "type": "STRING",
+          "value": "orderby"
+        },
+        {
+          "type": "STRING",
+          "value": "⤳"
+        },
+        {
+          "type": "STRING",
           "value": "⤴"
         },
         {
@@ -201,11 +475,39 @@
         },
         {
           "type": "STRING",
-          "value": "⮐"
+          "value": "∀"
         },
         {
           "type": "STRING",
           "value": "(˙▿˙)"
+        },
+        {
+          "type": "STRING",
+          "value": "∈"
+        },
+        {
+          "type": "STRING",
+          "value": "⟳"
+        },
+        {
+          "type": "STRING",
+          "value": "⟲"
+        },
+        {
+          "type": "STRING",
+          "value": "⤭"
+        },
+        {
+          "type": "STRING",
+          "value": "⥰"
+        },
+        {
+          "type": "STRING",
+          "value": "¦"
+        },
+        {
+          "type": "STRING",
+          "value": "⮐"
         },
         {
           "type": "STRING",
@@ -230,14 +532,356 @@
         {
           "type": "STRING",
           "value": "፥"
+        }
+      ]
+    },
+    "key": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "add"
         },
         {
           "type": "STRING",
-          "value": "∀"
+          "value": "using"
         },
         {
           "type": "STRING",
-          "value": "∈"
+          "value": "into"
+        },
+        {
+          "type": "STRING",
+          "value": "value"
+        },
+        {
+          "type": "STRING",
+          "value": "checked"
+        },
+        {
+          "type": "STRING",
+          "value": "global"
+        },
+        {
+          "type": "STRING",
+          "value": "let"
+        },
+        {
+          "type": "STRING",
+          "value": "new"
+        },
+        {
+          "type": "STRING",
+          "value": "operator"
+        },
+        {
+          "type": "STRING",
+          "value": "params"
+        },
+        {
+          "type": "STRING",
+          "value": "this"
+        },
+        {
+          "type": "STRING",
+          "value": "typeof"
+        },
+        {
+          "type": "STRING",
+          "value": "default"
+        },
+        {
+          "type": "STRING",
+          "value": "equals"
+        },
+        {
+          "type": "STRING",
+          "value": "long"
+        },
+        {
+          "type": "STRING",
+          "value": "out"
+        },
+        {
+          "type": "STRING",
+          "value": "ref"
+        },
+        {
+          "type": "STRING",
+          "value": "sizeof"
+        },
+        {
+          "type": "STRING",
+          "value": "descending"
+        },
+        {
+          "type": "STRING",
+          "value": "ascending"
+        },
+        {
+          "type": "STRING",
+          "value": "dynamic"
+        },
+        {
+          "type": "STRING",
+          "value": "fixed"
+        },
+        {
+          "type": "STRING",
+          "value": "group"
+        },
+        {
+          "type": "STRING",
+          "value": "is"
+        },
+        {
+          "type": "STRING",
+          "value": "get"
+        },
+        {
+          "type": "STRING",
+          "value": "set"
+        },
+        {
+          "type": "STRING",
+          "value": "on"
+        },
+        {
+          "type": "STRING",
+          "value": "remove"
+        },
+        {
+          "type": "STRING",
+          "value": "stackalloc"
+        },
+        {
+          "type": "STRING",
+          "value": "unchecked"
+        },
+        {
+          "type": "STRING",
+          "value": "as"
+        },
+        {
+          "type": "STRING",
+          "value": "base"
+        },
+        {
+          "type": "STRING",
+          "value": "⊐̥"
+        },
+        {
+          "type": "STRING",
+          "value": "⊐"
+        },
+        {
+          "type": "STRING",
+          "value": "🚸"
+        },
+        {
+          "type": "STRING",
+          "value": "⏰"
+        },
+        {
+          "type": "STRING",
+          "value": "⌽"
+        },
+        {
+          "type": "STRING",
+          "value": "⇖"
+        },
+        {
+          "type": "STRING",
+          "value": "⇘"
+        },
+        {
+          "type": "STRING",
+          "value": "⨕"
+        },
+        {
+          "type": "STRING",
+          "value": "ᵉ"
+        },
+        {
+          "type": "STRING",
+          "value": "ⁱ"
+        },
+        {
+          "type": "STRING",
+          "value": "↖"
+        },
+        {
+          "type": "STRING",
+          "value": "↘"
+        },
+        {
+          "type": "STRING",
+          "value": "⌢"
+        },
+        {
+          "type": "STRING",
+          "value": "∙"
+        },
+        {
+          "type": "STRING",
+          "value": "⦿"
+        },
+        {
+          "type": "STRING",
+          "value": "⛔️"
+        },
+        {
+          "type": "STRING",
+          "value": "📝"
+        }
+      ]
+    },
+    "prim": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "int"
+        },
+        {
+          "type": "STRING",
+          "value": "bool"
+        },
+        {
+          "type": "STRING",
+          "value": "string"
+        },
+        {
+          "type": "STRING",
+          "value": "float"
+        },
+        {
+          "type": "STRING",
+          "value": "char"
+        },
+        {
+          "type": "STRING",
+          "value": "double"
+        },
+        {
+          "type": "STRING",
+          "value": "byte"
+        },
+        {
+          "type": "STRING",
+          "value": "decimal"
+        },
+        {
+          "type": "STRING",
+          "value": "sbyte"
+        },
+        {
+          "type": "STRING",
+          "value": "short"
+        },
+        {
+          "type": "STRING",
+          "value": "uint"
+        },
+        {
+          "type": "STRING",
+          "value": "ushort"
+        },
+        {
+          "type": "STRING",
+          "value": "object"
+        },
+        {
+          "type": "STRING",
+          "value": "ulong"
+        },
+        {
+          "type": "STRING",
+          "value": "▷"
+        },
+        {
+          "type": "STRING",
+          "value": "▶"
+        },
+        {
+          "type": "STRING",
+          "value": "ᆞ"
+        },
+        {
+          "type": "STRING",
+          "value": "ㄹ"
+        },
+        {
+          "type": "STRING",
+          "value": "エ"
+        },
+        {
+          "type": "STRING",
+          "value": "ㅇ"
+        },
+        {
+          "type": "STRING",
+          "value": "ㅅ"
+        },
+        {
+          "type": "STRING",
+          "value": "⒜"
+        },
+        {
+          "type": "STRING",
+          "value": "⒡"
+        },
+        {
+          "type": "STRING",
+          "value": "𝕄"
+        },
+        {
+          "type": "STRING",
+          "value": "𝕊"
+        },
+        {
+          "type": "STRING",
+          "value": "𝕃"
+        },
+        {
+          "type": "STRING",
+          "value": "ロ"
+        },
+        {
+          "type": "STRING",
+          "value": "⫙"
+        },
+        {
+          "type": "STRING",
+          "value": "ペ"
+        },
+        {
+          "type": "STRING",
+          "value": "フ"
+        },
+        {
+          "type": "STRING",
+          "value": "シ"
+        },
+        {
+          "type": "STRING",
+          "value": "タ"
+        },
+        {
+          "type": "STRING",
+          "value": "ト"
+        },
+        {
+          "type": "STRING",
+          "value": "メ"
+        },
+        {
+          "type": "STRING",
+          "value": "メ̂"
+        },
+        {
+          "type": "STRING",
+          "value": "⑂"
         }
       ]
     },
@@ -315,76 +959,6 @@
         ]
       }
     },
-    "key": {
-      "type": "CHOICE",
-      "members": [
-        {
-          "type": "STRING",
-          "value": "using"
-        },
-        {
-          "type": "STRING",
-          "value": "int"
-        },
-        {
-          "type": "STRING",
-          "value": "bool"
-        },
-        {
-          "type": "STRING",
-          "value": "string"
-        },
-        {
-          "type": "STRING",
-          "value": "char"
-        },
-        {
-          "type": "STRING",
-          "value": "float"
-        },
-        {
-          "type": "STRING",
-          "value": "double"
-        },
-        {
-          "type": "STRING",
-          "value": "⊐̥"
-        },
-        {
-          "type": "STRING",
-          "value": "ㅇ"
-        },
-        {
-          "type": "STRING",
-          "value": "ㄹ"
-        },
-        {
-          "type": "STRING",
-          "value": "ᆞ"
-        }
-      ]
-    },
-    "sym": {
-      "type": "CHOICE",
-      "members": [
-        {
-          "type": "STRING",
-          "value": "⊓"
-        },
-        {
-          "type": "STRING",
-          "value": "⌢"
-        },
-        {
-          "type": "STRING",
-          "value": "→"
-        },
-        {
-          "type": "STRING",
-          "value": "⨕"
-        }
-      ]
-    },
     "z": {
       "type": "CHOICE",
       "members": [
@@ -399,35 +973,6 @@
         {
           "type": "PATTERN",
           "value": "[\\x7b-\\x7d]"
-        }
-      ]
-    },
-    "_lit": {
-      "type": "CHOICE",
-      "members": [
-        {
-          "type": "SYMBOL",
-          "name": "null"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "bool"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "char"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "real"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "int"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "str"
         }
       ]
     },
@@ -473,6 +1018,31 @@
         {
           "type": "STRING",
           "value": "false"
+        },
+        {
+          "type": "STRING",
+          "value": "✓"
+        },
+        {
+          "type": "STRING",
+          "value": "✗"
+        }
+      ]
+    },
+    "bt": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "◇"
+        },
+        {
+          "type": "STRING",
+          "value": "☡"
+        },
+        {
+          "type": "STRING",
+          "value": "■"
         }
       ]
     },

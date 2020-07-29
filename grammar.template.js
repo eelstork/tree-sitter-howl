@@ -18,21 +18,21 @@ module.exports = grammar({
       'abstract', 'const', 'extern', 'override', 'partial',
       'readonly', 'sealed', 'unsafe', 'virtual', 'volatile',
       'explicit', 'implicit',
-      '‒̥', '؟', '⍜', '⍉', '⏚', '‒', '╍̥', '╍', '◠̥', '◠', '╌̥', '╌', '▰̥', '▰', 'ᴬ', 'ᴸ', '⁺', 'ᴾ', '∘', 'ᵛ', '🔒'),
+      __Mod__),
 
     cat : $ => choice(
       'class', 'interface', 'struct', 'enum', 'var', 'delegate',
-      '⊓', '○', '◌', '⊟'),
+      __Cat__),
 
     op : $ => choice(
-      '🝠', '⎚', '→', '☰', '≠', '≥', '≤', '∧', '∨', '⩜', '⩝', '⁝', '❙', '৴'),
+      __Op__),
 
     flow: $ => choice(
       'async', 'await', 'by', 'if', 'else', 'foreach', 'in', 'for',
       'do', 'while', 'switch', 'case', 'break', 'return', 'yield',
       'try', 'catch', 'finally', 'continue', 'from', 'where',
       'select', 'throw', 'join', 'goto', 'lock', 'orderby',
-      '⤳', '⤴', '⤵', '∀', '(˙▿˙)', '∈', '⟳', '⟲', '⤭', '⥰', '¦', '⮐', '↯', '⇤', '(╯°□°)╯', '‖', '¿', '፥'),
+      __Flow__),
 
     key: $ => choice(
       'add', 'using' ,
@@ -42,13 +42,14 @@ module.exports = grammar({
       'long', 'out', 'ref', 'sizeof', 'descending',
       'ascending', 'dynamic', 'fixed', 'group', 'is', 'get', 'set',
       'on', 'remove', 'stackalloc', 'unchecked', 'as', 'base',
-      '⊐̥', '⊐', '🚸', '⏰', '⌽', '⇖', '⇘', '⨕', 'ᵉ', 'ⁱ', '↖', '↘', '⌢', '∙', '⦿', '⛔️', '📝'
+      __Key__
     ),
 
     prim: $ => choice(
-      'int', 'bool', 'string', 'float', 'char', 'double', 'byte', 'decimal',
-      'sbyte', 'short', 'uint', 'ushort', 'object', 'ulong',
-      '▷', '▶', 'ᆞ', 'ㄹ', 'エ', 'ㅇ', 'ㅅ', '⒜', '⒡', '𝕄', '𝕊', '𝕃', 'ロ', '⫙', 'ペ', 'フ', 'シ', 'タ', 'ト', 'メ', 'メ̂', '⑂'
+      'int', 'bool', 'string', 'float', 'char', 'double', 'byte',
+      'decimal', 'sbyte', 'short', 'uint', 'ushort', 'object',
+      'ulong',
+      __Pr__
     ),
 
     // [any letter][any letter or digit],
@@ -69,9 +70,9 @@ module.exports = grammar({
 
     str : $ => token(seq('"', repeat(choice( /[^"]/, '""' )), '"'  )),
 
-    bool: $ => choice('true', 'false', '✓', '✗'),
+    bool: $ => choice('true', 'false', __%true%__, __%false%__),
 
-    bt: $ => choice('◇', '☡', '■'),
+    bt: $ => choice(__%done()%__, __%cont()%__, __%fail()%__),
 
     char: $ => seq(
       "'", choice(token.immediate(/[^'\\]/), $.escape_sequence), "'"
@@ -92,7 +93,7 @@ module.exports = grammar({
       ), optional(/u|U|l|L|ul|UL|uL|Ul|lu|LU|Lu|lU/)
     )),
 
-    null: $ => choice('null', '∅'),
+    null: $ => choice('null', __%null%__),
 
     real: $ => {
       const suffix = /[fFdDmM]/;
