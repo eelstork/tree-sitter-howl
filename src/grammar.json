@@ -38,6 +38,10 @@
         },
         {
           "type": "SYMBOL",
+          "name": "return"
+        },
+        {
+          "type": "SYMBOL",
           "name": "key"
         },
         {
@@ -354,6 +358,19 @@
         }
       ]
     },
+    "return": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "return"
+        },
+        {
+          "type": "STRING",
+          "value": "⮐"
+        }
+      ]
+    },
     "flow": {
       "type": "CHOICE",
       "members": [
@@ -408,10 +425,6 @@
         {
           "type": "STRING",
           "value": "break"
-        },
-        {
-          "type": "STRING",
-          "value": "return"
         },
         {
           "type": "STRING",
@@ -508,10 +521,6 @@
         {
           "type": "STRING",
           "value": "¦"
-        },
-        {
-          "type": "STRING",
-          "value": "⮐"
         },
         {
           "type": "STRING",

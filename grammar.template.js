@@ -9,7 +9,7 @@ module.exports = grammar({
     Σ   : $ => repeat($._e),
 
     _e  : $ => choice( $.mod, $.cat, $.op, $.prim, $.bt, $.flow,
-                       $.key, $.comment, $.z, $._lit, $.id, $.type ),
+                       $.return, $.key, $.comment, $.z, $._lit, $.id, $.type ),
 
     _lit: $ => choice( $.null, $.bool, $.char, $.real, $.int, $.str ),
 
@@ -27,9 +27,11 @@ module.exports = grammar({
     op : $ => choice(
       __Op__),
 
+    return : $ => choice('return', __%return%__),
+
     flow: $ => choice(
       'async', 'await', 'by', 'if', 'else', 'foreach', 'in', 'for',
-      'do', 'while', 'switch', 'case', 'break', 'return', 'yield',
+      'do', 'while', 'switch', 'case', 'break', 'yield',
       'try', 'catch', 'finally', 'continue', 'from', 'where',
       'select', 'throw', 'join', 'goto', 'lock', 'orderby',
       __Flow__),

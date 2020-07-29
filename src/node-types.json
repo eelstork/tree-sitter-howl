@@ -60,6 +60,11 @@
     "fields": {}
   },
   {
+    "type": "return",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "z",
     "named": true,
     "fields": {}
@@ -126,6 +131,10 @@
         },
         {
           "type": "real",
+          "named": true
+        },
+        {
+          "type": "return",
           "named": true
         },
         {
@@ -345,11 +354,11 @@
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "interface",
