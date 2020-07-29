@@ -55,6 +55,10 @@
         {
           "type": "SYMBOL",
           "name": "id"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "type"
         }
       ]
     },
@@ -904,7 +908,31 @@
           },
           {
             "type": "PATTERN",
-            "value": "[\\u00C0-\\u1FFF\\u2C00-\\uD7FFa-zA-Z][\\u00C0-\\u1FFF\\u2C00-\\uD7FF\\w]*"
+            "value": "[\\u00C0-\\u1FFF\\u2C00-\\uD7FFa-z_][\\u00C0-\\u1FFF\\u2C00-\\uD7FF\\w]*"
+          }
+        ]
+      }
+    },
+    "type": {
+      "type": "TOKEN",
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "STRING",
+                "value": "@"
+              },
+              {
+                "type": "BLANK"
+              }
+            ]
+          },
+          {
+            "type": "PATTERN",
+            "value": "[A-Z][a-zA-Z_0-9]*"
           }
         ]
       }

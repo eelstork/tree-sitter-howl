@@ -9,7 +9,7 @@ module.exports = grammar({
     Σ   : $ => repeat($._e),
 
     _e  : $ => choice( $.mod, $.cat, $.op, $.prim, $.bt, $.flow,
-                       $.key, $.comment, $.z, $._lit, $.id ),
+                       $.key, $.comment, $.z, $._lit, $.id, $.type ),
 
     _lit: $ => choice( $.null, $.bool, $.char, $.real, $.int, $.str ),
 
@@ -46,8 +46,9 @@ module.exports = grammar({
     ),
 
     prim: $ => choice(
-      'int', 'bool', 'string', 'float', 'char', 'double', 'byte', 'decimal',
-      'sbyte', 'short', 'uint', 'ushort', 'object', 'ulong',
+      'int', 'bool', 'string', 'float', 'char', 'double', 'byte',
+      'decimal', 'sbyte', 'short', 'uint', 'ushort', 'object',
+      'ulong',
       '▷', '▶', 'ᆞ', 'ㄹ', 'エ', 'ㅇ', 'ㅅ', '⒜', '⒡', '𝕄', '𝕊', '𝕃', 'ロ', '⫙', 'ペ', 'フ', 'シ', 'タ', 'ト', 'メ', 'メ̂', '⑂'
     ),
 
@@ -56,7 +57,14 @@ module.exports = grammar({
     // characters added.
     id  : $ => token(seq(
       optional('@'),
-      /[\u00C0-\u1FFF\u2C00-\uD7FFa-zA-Z][\u00C0-\u1FFF\u2C00-\uD7FF\w]*/,
+      /[\u00C0-\u1FFF\u2C00-\uD7FFa-z_][\u00C0-\u1FFF\u2C00-\uD7FF\w]*/,
+    )),
+
+    // Similar to id but these identifiers starting with [A-Z] are
+    // assumed to represent type names
+    type : $ => token(seq(
+      optional('@'),
+      /[A-Z][a-zA-Z_0-9]*/,
     )),
 
     comment: $ => token(choice(

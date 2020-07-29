@@ -133,6 +133,10 @@
           "named": true
         },
         {
+          "type": "type",
+          "named": true
+        },
+        {
           "type": "z",
           "named": true
         }
@@ -341,11 +345,11 @@
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "interface",
@@ -514,6 +518,10 @@
   {
     "type": "try",
     "named": false
+  },
+  {
+    "type": "type",
+    "named": true
   },
   {
     "type": "typeof",
