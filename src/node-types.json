@@ -354,11 +354,11 @@
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "interface",
@@ -661,23 +661,7 @@
     "named": false
   },
   {
-    "type": "↖",
-    "named": false
-  },
-  {
-    "type": "↘",
-    "named": false
-  },
-  {
     "type": "↯",
-    "named": false
-  },
-  {
-    "type": "⇖",
-    "named": false
-  },
-  {
-    "type": "⇘",
     "named": false
   },
   {
@@ -794,6 +778,14 @@
   },
   {
     "type": "╍̥",
+    "named": false
+  },
+  {
+    "type": "╭",
+    "named": false
+  },
+  {
+    "type": "╰",
     "named": false
   },
   {

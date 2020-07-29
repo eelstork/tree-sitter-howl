@@ -44,7 +44,7 @@ module.exports = grammar({
       'long', 'out', 'ref', 'sizeof', 'descending',
       'ascending', 'dynamic', 'fixed', 'group', 'is', 'get', 'set',
       'on', 'remove', 'stackalloc', 'unchecked', 'as', 'base',
-      '⊐̥', '⊐', '🚸', '⏰', '⌽', '⇖', '⇘', '⨕', 'ᵉ', 'ⁱ', '↖', '↘', '⌢', '∙', '⦿', '⛔️', '📝'
+      '⊐̥', '⊐', '🚸', '⏰', '⌽', '⨕', 'ᵉ', 'ⁱ', '╭', '╰', '⌢', '∙', '⦿', '⛔️', '📝'
     ),
 
     prim: $ => choice(
