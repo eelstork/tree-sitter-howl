@@ -354,11 +354,11 @@
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "interface",
@@ -837,10 +837,6 @@
     "named": false
   },
   {
-    "type": "⛔️",
-    "named": false
-  },
-  {
     "type": "✓",
     "named": false
   },
@@ -965,15 +961,7 @@
     "named": false
   },
   {
-    "type": "📝",
-    "named": false
-  },
-  {
     "type": "🔒",
-    "named": false
-  },
-  {
-    "type": "🚸",
     "named": false
   },
   {
