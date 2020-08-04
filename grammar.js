@@ -37,7 +37,7 @@ module.exports = grammar({
       '⤳', '⤴', '⤵', '∀', '(˙▿˙)', '∈', '⟳', '⟲', '⤭', '⥰', '¦', '↯', '⇤', '(╯°□°)╯', '‖', '¿', '፥'),
 
     key: $ => choice(
-      'add', 'using' ,
+      'add', 'nameof', 'using' ,
       'into', 'value', 'checked',
       'global', 'let', 'new',
       'operator', 'params', 'this', 'typeof', 'default', 'equals',

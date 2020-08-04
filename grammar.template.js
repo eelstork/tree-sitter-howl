@@ -37,9 +37,8 @@ module.exports = grammar({
       __Flow__),
 
     key: $ => choice(
-      'add', 'using' ,
-      'into', 'value', 'checked',
-      'global', 'let', 'new',
+      'add', 'checked', 'into', 'nameof', 'new', 'using', 'value'
+      'global', 'let',
       'operator', 'params', 'this', 'typeof', 'default', 'equals',
       'long', 'out', 'ref', 'sizeof', 'descending',
       'ascending', 'dynamic', 'fixed', 'group', 'is', 'get', 'set',
