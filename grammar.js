@@ -34,12 +34,11 @@ module.exports = grammar({
       'do', 'while', 'switch', 'case', 'break', 'yield',
       'try', 'catch', 'finally', 'continue', 'from', 'where',
       'select', 'throw', 'join', 'goto', 'lock', 'orderby',
-      '⤳', '⤴', '⤵', '∀', '(˙▿˙)', '∈', '⟳', '⟲', '⤭', '⥰', '¦', '↯', '⇤', '(╯°□°)╯', '‖', '¿', '፥'),
+      '⤳', '⤴', '⤵', '∀', '⤓', '(˙▿˙)', '∈', '⟳', '⟲', '⤭', '⥰', '¦', '↯', '⇤', '(╯°□°)╯', '‖', '¿', '፥'),
 
     key: $ => choice(
-      'add', 'nameof', 'using' ,
-      'into', 'value', 'checked',
-      'global', 'let', 'new',
+      'add', 'checked', 'into', 'nameof', 'new', 'using', 'value'
+      'global', 'let',
       'operator', 'params', 'this', 'typeof', 'default', 'equals',
       'long', 'out', 'ref', 'sizeof', 'descending',
       'ascending', 'dynamic', 'fixed', 'group', 'is', 'get', 'set',
@@ -51,7 +50,7 @@ module.exports = grammar({
       'int', 'bool', 'string', 'float', 'char', 'double', 'byte',
       'decimal', 'sbyte', 'short', 'uint', 'ushort', 'object',
       'ulong',
-      '▷', '▶', 'ᆞ', 'ㄹ', 'エ', 'ㅇ', 'ㅅ', '⒜', '⒡', '𝕄', '𝕊', '𝕃', 'ロ', '⫙', 'ペ', 'フ', 'シ', 'タ', 'ト', 'メ', 'メ̂', '⑂'
+      '▷', '▶', 'ᆞ', 'ㄹ', 'エ', 'ㅇ', 'ㅅ', '⊡', 'ㅆ', '⒜', '⒡', '𝕄', '𝕊', '𝕃', 'ロ', '⫙', 'ᇅ', 'フ', 'シ', 'タ', 'ト', 'メ', 'メ̂', '⑂'
     ),
 
     // [any letter][any letter or digit],
