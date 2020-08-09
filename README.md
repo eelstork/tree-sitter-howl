@@ -15,5 +15,8 @@ tree-sitter parse ex.howl
 tree-sitter parse braces.howl
 # (check no errors..)
 # (commit and up....)
+npm version 0.2.x
 npm publish
 ```
+
+After publishing update `tree-sitter-howl` version in [language-howl](https://github.com/eelstork/language-howl) and republish the language-howl package.
