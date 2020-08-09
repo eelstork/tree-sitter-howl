@@ -1,7 +1,7 @@
 # Howl protogrammar
 
 This is a work in progress for a simple Howl grammar.
-This public package is primarily consumed via (language-howl)[https://github.com/eelstork/language-howl]
+This public package is primarily consumed via [language-howl](https://github.com/eelstork/language-howl)
 
 # Dev notes
 
