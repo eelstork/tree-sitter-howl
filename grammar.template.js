@@ -24,7 +24,7 @@ module.exports = grammar({
       'class', 'interface', 'struct', 'enum', 'var', 'delegate',
       __Cat__),
 
-    op : $ => choice(
+    op : $ => choice('+', '-',
       __Op__),
 
     return : $ => choice('return', __%return%__),
@@ -37,7 +37,7 @@ module.exports = grammar({
       __Flow__),
 
     key: $ => choice(
-      'add', 'checked', 'into', 'nameof', 'new', 'using', 'value'
+      'add', 'checked', 'into', 'nameof', 'new', 'using', 'value',
       'global', 'let',
       'operator', 'params', 'this', 'typeof', 'default', 'equals',
       'long', 'out', 'ref', 'sizeof', 'descending',

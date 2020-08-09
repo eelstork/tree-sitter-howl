@@ -165,6 +165,14 @@
     "named": false
   },
   {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
     "type": "abstract",
     "named": false
   },
@@ -393,6 +401,10 @@
     "named": false
   },
   {
+    "type": "nameof",
+    "named": false
+  },
+  {
     "type": "new",
     "named": false
   },
@@ -605,7 +617,31 @@
     "named": false
   },
   {
+    "type": "ᄍ",
+    "named": false
+  },
+  {
+    "type": "ᅭ",
+    "named": false
+  },
+  {
+    "type": "ᅮ",
+    "named": false
+  },
+  {
     "type": "ᆞ",
+    "named": false
+  },
+  {
+    "type": "ᆨ",
+    "named": false
+  },
+  {
+    "type": "ᆩ",
+    "named": false
+  },
+  {
+    "type": "ᇅ",
     "named": false
   },
   {
@@ -613,7 +649,7 @@
     "named": false
   },
   {
-    "type": "ᴬ",
+    "type": "ᖾ",
     "named": false
   },
   {
@@ -622,10 +658,6 @@
   },
   {
     "type": "ᴾ",
-    "named": false
-  },
-  {
-    "type": "ᵉ",
     "named": false
   },
   {
@@ -646,10 +678,6 @@
   },
   {
     "type": "⁝",
-    "named": false
-  },
-  {
-    "type": "ⁱ",
     "named": false
   },
   {
@@ -681,11 +709,19 @@
     "named": false
   },
   {
+    "type": "∑",
+    "named": false
+  },
+  {
     "type": "∘",
     "named": false
   },
   {
     "type": "∙",
+    "named": false
+  },
+  {
+    "type": "√",
     "named": false
   },
   {
@@ -725,7 +761,15 @@
     "named": false
   },
   {
+    "type": "⊡",
+    "named": false
+  },
+  {
     "type": "⌢",
+    "named": false
+  },
+  {
+    "type": "⌷",
     "named": false
   },
   {
@@ -738,6 +782,14 @@
   },
   {
     "type": "⍜",
+    "named": false
+  },
+  {
+    "type": "⍥",
+    "named": false
+  },
+  {
+    "type": "⍧",
     "named": false
   },
   {
@@ -761,7 +813,15 @@
     "named": false
   },
   {
+    "type": "⒠",
+    "named": false
+  },
+  {
     "type": "⒡",
+    "named": false
+  },
+  {
+    "type": "⒤",
     "named": false
   },
   {
@@ -829,6 +889,10 @@
     "named": false
   },
   {
+    "type": "☋",
+    "named": false
+  },
+  {
     "type": "☡",
     "named": false
   },
@@ -854,6 +918,10 @@
   },
   {
     "type": "⟳",
+    "named": false
+  },
+  {
+    "type": "⤓",
     "named": false
   },
   {
@@ -885,14 +953,6 @@
     "named": false
   },
   {
-    "type": "⩜",
-    "named": false
-  },
-  {
-    "type": "⩝",
-    "named": false
-  },
-  {
     "type": "⫙",
     "named": false
   },
@@ -921,10 +981,6 @@
     "named": false
   },
   {
-    "type": "ペ",
-    "named": false
-  },
-  {
     "type": "メ",
     "named": false
   },
@@ -945,7 +1001,15 @@
     "named": false
   },
   {
+    "type": "ㅆ",
+    "named": false
+  },
+  {
     "type": "ㅇ",
+    "named": false
+  },
+  {
+    "type": "𝔼",
     "named": false
   },
   {
@@ -958,6 +1022,10 @@
   },
   {
     "type": "𝕊",
+    "named": false
+  },
+  {
+    "type": "𝛑",
     "named": false
   },
   {
