@@ -21,7 +21,7 @@ true, false, 123, 34.34f, 'c', "string"
 
 /* Sample Type */
 
-‒ ○ Block{
+🔒‒ ○ Block{
 
     Def def;
 

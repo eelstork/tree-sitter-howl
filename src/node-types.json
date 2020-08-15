@@ -45,6 +45,21 @@
     "fields": {}
   },
   {
+    "type": "modifiers",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "mod",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "null",
     "named": true,
     "fields": {}
@@ -114,7 +129,7 @@
           "named": true
         },
         {
-          "type": "mod",
+          "type": "modifiers",
           "named": true
         },
         {
@@ -362,11 +377,11 @@
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "interface",
@@ -933,6 +948,10 @@
     "named": false
   },
   {
+    "type": "⤏",
+    "named": false
+  },
+  {
     "type": "⤬",
     "named": false
   },
@@ -1026,6 +1045,10 @@
   },
   {
     "type": "㆑",
+    "named": false
+  },
+  {
+    "type": "～",
     "named": false
   },
   {

@@ -8,10 +8,12 @@ module.exports = grammar({
 
     Σ   : $ => repeat($._e),
 
-    _e  : $ => choice( $.mod, $.cat, $.op, $.prim, $.bt, $.flow,
+    _e  : $ => choice( $.modifiers, $.cat, $.op, $.prim, $.bt, $.flow,
                        $.return, $.key, $.comment, $.z, $._lit, $.id, $.type ),
 
     _lit: $ => choice( $.null, $.bool, $.char, $.real, $.int, $.str ),
+
+    modifiers: $ => prec.right(repeat1($.mod)),
 
     mod : $ => choice(
       'public', 'internal', 'protected', 'private', 'static',
@@ -34,7 +36,7 @@ module.exports = grammar({
       'do', 'while', 'switch', 'case', 'break', 'yield',
       'try', 'catch', 'finally', 'continue', 'from', 'where',
       'select', 'throw', 'join', 'goto', 'lock', 'orderby',
-      '⤳', '⤴', '⤵', '∀', '〰', '(˙▿˙)', '◿', '◺', '∈', '⟳', '⟲', '⤭', '⥰', '¦', '㆑', '⤬', '↯', '⇤', '(╯°□°)╯', '‖', '¿', '፥', '⏢'),
+      '⤳', '⤴', '⤵', '∀', '〰', '(˙▿˙)', '◿', '◺', '∈', '⟳', '⟲', '⤭', '⥰', '～', '¦', '⤏', '㆑', '⤬', '↯', '⇤', '(╯°□°)╯', '‖', '¿', '፥', '⏢'),
 
     key: $ => choice(
       'add', 'checked', 'into', 'nameof', 'new', 'using', 'value',

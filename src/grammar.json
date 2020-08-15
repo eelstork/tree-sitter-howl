@@ -14,7 +14,7 @@
       "members": [
         {
           "type": "SYMBOL",
-          "name": "mod"
+          "name": "modifiers"
         },
         {
           "type": "SYMBOL",
@@ -94,6 +94,17 @@
           "name": "str"
         }
       ]
+    },
+    "modifiers": {
+      "type": "PREC_RIGHT",
+      "value": 0,
+      "content": {
+        "type": "REPEAT1",
+        "content": {
+          "type": "SYMBOL",
+          "name": "mod"
+        }
+      }
     },
     "mod": {
       "type": "CHOICE",
@@ -556,7 +567,15 @@
         },
         {
           "type": "STRING",
+          "value": "～"
+        },
+        {
+          "type": "STRING",
           "value": "¦"
+        },
+        {
+          "type": "STRING",
+          "value": "⤏"
         },
         {
           "type": "STRING",
