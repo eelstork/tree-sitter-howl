@@ -804,10 +804,6 @@
     "named": false
   },
   {
-    "type": "⍧",
-    "named": false
-  },
-  {
     "type": "⎚",
     "named": false
   },
@@ -844,22 +840,6 @@
     "named": false
   },
   {
-    "type": "╌",
-    "named": false
-  },
-  {
-    "type": "╌̥",
-    "named": false
-  },
-  {
-    "type": "╍",
-    "named": false
-  },
-  {
-    "type": "╍̥",
-    "named": false
-  },
-  {
     "type": "╭",
     "named": false
   },
@@ -893,10 +873,6 @@
   },
   {
     "type": "○",
-    "named": false
-  },
-  {
-    "type": "◌",
     "named": false
   },
   {
@@ -1048,7 +1024,31 @@
     "named": false
   },
   {
+    "type": "︲",
+    "named": false
+  },
+  {
+    "type": "︲̑",
+    "named": false
+  },
+  {
+    "type": "︲̥",
+    "named": false
+  },
+  {
+    "type": "︲̥̑",
+    "named": false
+  },
+  {
     "type": "～",
+    "named": false
+  },
+  {
+    "type": "𐋂",
+    "named": false
+  },
+  {
+    "type": "𐋆",
     "named": false
   },
   {
