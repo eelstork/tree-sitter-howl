@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-howl",
-  "version": "0.2.12",
+  "version": "0.3.0",
   "description": "Simple Howl parser",
   "main": "index.js",
   "author": "T.E.A de Souza",
