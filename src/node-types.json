@@ -660,10 +660,6 @@
     "named": false
   },
   {
-    "type": "፥",
-    "named": false
-  },
-  {
     "type": "ᖾ",
     "named": false
   },
@@ -865,6 +861,10 @@
   },
   {
     "type": "▷",
+    "named": false
+  },
+  {
+    "type": "▸",
     "named": false
   },
   {

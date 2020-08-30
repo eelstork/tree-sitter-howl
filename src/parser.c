@@ -390,7 +390,7 @@ static const char *ts_symbol_names[] = {
   [anon_sym_LPAREN_RPAREN2] = "(╯°□°)╯",
   [anon_sym_64] = "‖",
   [anon_sym_65] = "¿",
-  [anon_sym_66] = "፥",
+  [anon_sym_66] = "▸",
   [anon_sym_67] = "⏢",
   [anon_sym_add] = "add",
   [anon_sym_checked] = "checked",
@@ -1807,7 +1807,6 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 191) ADVANCE(93);
       if (lookahead == 1567) ADVANCE(32);
       if (lookahead == 2548) ADVANCE(69);
-      if (lookahead == 4965) ADVANCE(94);
       if (lookahead == 8210) ADVANCE(36);
       if (lookahead == 8214) ADVANCE(92);
       if (lookahead == 8285) ADVANCE(67);
@@ -1852,6 +1851,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 9648) ADVANCE(44);
       if (lookahead == 9654) ADVANCE(106);
       if (lookahead == 9655) ADVANCE(105);
+      if (lookahead == 9656) ADVANCE(94);
       if (lookahead == 9671) ADVANCE(142);
       if (lookahead == 9675) ADVANCE(51);
       if (lookahead == 9696) ADVANCE(40);
@@ -2253,12 +2253,6 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 94:
       ACCEPT_TOKEN(anon_sym_66);
-      if (('0' <= lookahead && lookahead <= '9') ||
-          ('A' <= lookahead && lookahead <= 'Z') ||
-          lookahead == '_' ||
-          ('a' <= lookahead && lookahead <= 'z') ||
-          (192 <= lookahead && lookahead <= 8191) ||
-          (11264 <= lookahead && lookahead <= 55295)) ADVANCE(125);
       END_STATE();
     case 95:
       ACCEPT_TOKEN(anon_sym_67);
@@ -4471,7 +4465,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(25),
     [anon_sym_64] = ACTIONS(25),
     [anon_sym_65] = ACTIONS(25),
-    [anon_sym_66] = ACTIONS(23),
+    [anon_sym_66] = ACTIONS(25),
     [anon_sym_67] = ACTIONS(25),
     [anon_sym_add] = ACTIONS(27),
     [anon_sym_checked] = ACTIONS(27),
@@ -4721,7 +4715,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(25),
     [anon_sym_64] = ACTIONS(25),
     [anon_sym_65] = ACTIONS(25),
-    [anon_sym_66] = ACTIONS(23),
+    [anon_sym_66] = ACTIONS(25),
     [anon_sym_67] = ACTIONS(25),
     [anon_sym_add] = ACTIONS(27),
     [anon_sym_checked] = ACTIONS(27),
@@ -4971,7 +4965,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(91),
     [anon_sym_64] = ACTIONS(91),
     [anon_sym_65] = ACTIONS(91),
-    [anon_sym_66] = ACTIONS(88),
+    [anon_sym_66] = ACTIONS(91),
     [anon_sym_67] = ACTIONS(91),
     [anon_sym_add] = ACTIONS(94),
     [anon_sym_checked] = ACTIONS(94),
@@ -5206,7 +5200,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(133),
     [anon_sym_64] = ACTIONS(133),
     [anon_sym_65] = ACTIONS(133),
-    [anon_sym_66] = ACTIONS(135),
+    [anon_sym_66] = ACTIONS(133),
     [anon_sym_67] = ACTIONS(133),
     [anon_sym_add] = ACTIONS(135),
     [anon_sym_checked] = ACTIONS(135),
@@ -5441,7 +5435,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(143),
     [anon_sym_64] = ACTIONS(143),
     [anon_sym_65] = ACTIONS(143),
-    [anon_sym_66] = ACTIONS(145),
+    [anon_sym_66] = ACTIONS(143),
     [anon_sym_67] = ACTIONS(143),
     [anon_sym_add] = ACTIONS(145),
     [anon_sym_checked] = ACTIONS(145),
@@ -5674,7 +5668,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(147),
     [anon_sym_64] = ACTIONS(147),
     [anon_sym_65] = ACTIONS(147),
-    [anon_sym_66] = ACTIONS(149),
+    [anon_sym_66] = ACTIONS(147),
     [anon_sym_67] = ACTIONS(147),
     [anon_sym_add] = ACTIONS(149),
     [anon_sym_checked] = ACTIONS(149),
@@ -5907,7 +5901,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(151),
     [anon_sym_64] = ACTIONS(151),
     [anon_sym_65] = ACTIONS(151),
-    [anon_sym_66] = ACTIONS(153),
+    [anon_sym_66] = ACTIONS(151),
     [anon_sym_67] = ACTIONS(151),
     [anon_sym_add] = ACTIONS(153),
     [anon_sym_checked] = ACTIONS(153),
@@ -6140,7 +6134,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(155),
     [anon_sym_64] = ACTIONS(155),
     [anon_sym_65] = ACTIONS(155),
-    [anon_sym_66] = ACTIONS(157),
+    [anon_sym_66] = ACTIONS(155),
     [anon_sym_67] = ACTIONS(155),
     [anon_sym_add] = ACTIONS(157),
     [anon_sym_checked] = ACTIONS(157),
@@ -6373,7 +6367,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(159),
     [anon_sym_64] = ACTIONS(159),
     [anon_sym_65] = ACTIONS(159),
-    [anon_sym_66] = ACTIONS(161),
+    [anon_sym_66] = ACTIONS(159),
     [anon_sym_67] = ACTIONS(159),
     [anon_sym_add] = ACTIONS(161),
     [anon_sym_checked] = ACTIONS(161),
@@ -6606,7 +6600,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(163),
     [anon_sym_64] = ACTIONS(163),
     [anon_sym_65] = ACTIONS(163),
-    [anon_sym_66] = ACTIONS(165),
+    [anon_sym_66] = ACTIONS(163),
     [anon_sym_67] = ACTIONS(163),
     [anon_sym_add] = ACTIONS(165),
     [anon_sym_checked] = ACTIONS(165),
@@ -6839,7 +6833,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(167),
     [anon_sym_64] = ACTIONS(167),
     [anon_sym_65] = ACTIONS(167),
-    [anon_sym_66] = ACTIONS(169),
+    [anon_sym_66] = ACTIONS(167),
     [anon_sym_67] = ACTIONS(167),
     [anon_sym_add] = ACTIONS(169),
     [anon_sym_checked] = ACTIONS(169),
@@ -7072,7 +7066,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(171),
     [anon_sym_64] = ACTIONS(171),
     [anon_sym_65] = ACTIONS(171),
-    [anon_sym_66] = ACTIONS(173),
+    [anon_sym_66] = ACTIONS(171),
     [anon_sym_67] = ACTIONS(171),
     [anon_sym_add] = ACTIONS(173),
     [anon_sym_checked] = ACTIONS(173),
@@ -7305,7 +7299,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(175),
     [anon_sym_64] = ACTIONS(175),
     [anon_sym_65] = ACTIONS(175),
-    [anon_sym_66] = ACTIONS(177),
+    [anon_sym_66] = ACTIONS(175),
     [anon_sym_67] = ACTIONS(175),
     [anon_sym_add] = ACTIONS(177),
     [anon_sym_checked] = ACTIONS(177),
@@ -7538,7 +7532,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(179),
     [anon_sym_64] = ACTIONS(179),
     [anon_sym_65] = ACTIONS(179),
-    [anon_sym_66] = ACTIONS(181),
+    [anon_sym_66] = ACTIONS(179),
     [anon_sym_67] = ACTIONS(179),
     [anon_sym_add] = ACTIONS(181),
     [anon_sym_checked] = ACTIONS(181),
@@ -7771,7 +7765,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(183),
     [anon_sym_64] = ACTIONS(183),
     [anon_sym_65] = ACTIONS(183),
-    [anon_sym_66] = ACTIONS(185),
+    [anon_sym_66] = ACTIONS(183),
     [anon_sym_67] = ACTIONS(183),
     [anon_sym_add] = ACTIONS(185),
     [anon_sym_checked] = ACTIONS(185),
@@ -8004,7 +7998,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(187),
     [anon_sym_64] = ACTIONS(187),
     [anon_sym_65] = ACTIONS(187),
-    [anon_sym_66] = ACTIONS(189),
+    [anon_sym_66] = ACTIONS(187),
     [anon_sym_67] = ACTIONS(187),
     [anon_sym_add] = ACTIONS(189),
     [anon_sym_checked] = ACTIONS(189),
@@ -8237,7 +8231,7 @@ static uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN_RPAREN2] = ACTIONS(191),
     [anon_sym_64] = ACTIONS(191),
     [anon_sym_65] = ACTIONS(191),
-    [anon_sym_66] = ACTIONS(193),
+    [anon_sym_66] = ACTIONS(191),
     [anon_sym_67] = ACTIONS(191),
     [anon_sym_add] = ACTIONS(193),
     [anon_sym_checked] = ACTIONS(193),
