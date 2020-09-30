@@ -688,11 +688,19 @@
     "named": false
   },
   {
+    "type": "‡",
+    "named": false
+  },
+  {
     "type": "⁝",
     "named": false
   },
   {
     "type": "⁺",
+    "named": false
+  },
+  {
+    "type": "ℚ",
     "named": false
   },
   {
@@ -1053,6 +1061,10 @@
   },
   {
     "type": "𝔼",
+    "named": false
+  },
+  {
+    "type": "𝕂",
     "named": false
   },
   {
