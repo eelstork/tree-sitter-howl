@@ -345,6 +345,14 @@
         },
         {
           "type": "STRING",
+          "value": "⩀"
+        },
+        {
+          "type": "STRING",
+          "value": "⊺"
+        },
+        {
+          "type": "STRING",
           "value": "⎚"
         },
         {
@@ -761,6 +769,10 @@
         {
           "type": "STRING",
           "value": "⊐"
+        },
+        {
+          "type": "STRING",
+          "value": "み"
         },
         {
           "type": "STRING",
