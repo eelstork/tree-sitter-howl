@@ -599,6 +599,10 @@
         },
         {
           "type": "STRING",
+          "value": "⟆"
+        },
+        {
+          "type": "STRING",
           "value": "⏂"
         },
         {
@@ -800,10 +804,6 @@
         },
         {
           "type": "STRING",
-          "value": "⩶"
-        },
-        {
-          "type": "STRING",
           "value": "⏰"
         },
         {
@@ -841,6 +841,18 @@
         {
           "type": "STRING",
           "value": "⦿"
+        },
+        {
+          "type": "STRING",
+          "value": "𝚜"
+        },
+        {
+          "type": "STRING",
+          "value": "𝚛"
+        },
+        {
+          "type": "STRING",
+          "value": "𝚙"
         }
       ]
     },

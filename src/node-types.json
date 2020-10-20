@@ -377,11 +377,11 @@
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "interface",
@@ -988,6 +988,10 @@
     "named": false
   },
   {
+    "type": "⟆",
+    "named": false
+  },
+  {
     "type": "⟛",
     "named": false
   },
@@ -1033,10 +1037,6 @@
   },
   {
     "type": "⨕",
-    "named": false
-  },
-  {
-    "type": "⩶",
     "named": false
   },
   {
@@ -1161,6 +1161,18 @@
   },
   {
     "type": "𝕊",
+    "named": false
+  },
+  {
+    "type": "𝚙",
+    "named": false
+  },
+  {
+    "type": "𝚛",
+    "named": false
+  },
+  {
+    "type": "𝚜",
     "named": false
   },
   {
