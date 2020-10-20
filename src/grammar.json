@@ -345,14 +345,6 @@
         },
         {
           "type": "STRING",
-          "value": "⩀"
-        },
-        {
-          "type": "STRING",
-          "value": "⊺"
-        },
-        {
-          "type": "STRING",
           "value": "⎚"
         },
         {
@@ -398,6 +390,18 @@
         {
           "type": "STRING",
           "value": "ᖾ"
+        },
+        {
+          "type": "STRING",
+          "value": "¹"
+        },
+        {
+          "type": "STRING",
+          "value": "❚"
+        },
+        {
+          "type": "STRING",
+          "value": "ˮ"
         }
       ]
     },
@@ -624,6 +628,14 @@
         {
           "type": "STRING",
           "value": "⏢"
+        },
+        {
+          "type": "STRING",
+          "value": "❰"
+        },
+        {
+          "type": "STRING",
+          "value": "❱"
         }
       ]
     },
@@ -772,11 +784,39 @@
         },
         {
           "type": "STRING",
+          "value": "˙"
+        },
+        {
+          "type": "STRING",
+          "value": "⁰"
+        },
+        {
+          "type": "STRING",
+          "value": "ˢ"
+        },
+        {
+          "type": "STRING",
           "value": "み"
         },
         {
           "type": "STRING",
+          "value": "⩶"
+        },
+        {
+          "type": "STRING",
           "value": "⏰"
+        },
+        {
+          "type": "STRING",
+          "value": "◇̠"
+        },
+        {
+          "type": "STRING",
+          "value": "☡̱"
+        },
+        {
+          "type": "STRING",
+          "value": "■̠"
         },
         {
           "type": "STRING",
@@ -865,14 +905,6 @@
         },
         {
           "type": "STRING",
-          "value": "▷"
-        },
-        {
-          "type": "STRING",
-          "value": "▶"
-        },
-        {
-          "type": "STRING",
           "value": "ᆞ"
         },
         {
@@ -882,6 +914,10 @@
         {
           "type": "STRING",
           "value": "エ"
+        },
+        {
+          "type": "STRING",
+          "value": "⫫"
         },
         {
           "type": "STRING",
@@ -1009,7 +1045,43 @@
         },
         {
           "type": "STRING",
+          "value": "⒯"
+        },
+        {
+          "type": "STRING",
+          "value": "𝛿𝚝"
+        },
+        {
+          "type": "STRING",
+          "value": "⊣"
+        },
+        {
+          "type": "STRING",
+          "value": "⊢"
+        },
+        {
+          "type": "STRING",
+          "value": "⊥"
+        },
+        {
+          "type": "STRING",
+          "value": "⊤"
+        },
+        {
+          "type": "STRING",
+          "value": "⫪"
+        },
+        {
+          "type": "STRING",
+          "value": "⟛"
+        },
+        {
+          "type": "STRING",
           "value": "⑂"
+        },
+        {
+          "type": "STRING",
+          "value": "▷"
         }
       ]
     },

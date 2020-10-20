@@ -377,11 +377,11 @@
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "interface",
@@ -620,7 +620,23 @@
     "named": false
   },
   {
+    "type": "¹",
+    "named": false
+  },
+  {
     "type": "¿",
+    "named": false
+  },
+  {
+    "type": "˙",
+    "named": false
+  },
+  {
+    "type": "ˢ",
+    "named": false
+  },
+  {
+    "type": "ˮ",
     "named": false
   },
   {
@@ -693,6 +709,10 @@
   },
   {
     "type": "⁝",
+    "named": false
+  },
+  {
+    "type": "⁰",
     "named": false
   },
   {
@@ -784,7 +804,19 @@
     "named": false
   },
   {
-    "type": "⊺",
+    "type": "⊢",
+    "named": false
+  },
+  {
+    "type": "⊣",
+    "named": false
+  },
+  {
+    "type": "⊤",
+    "named": false
+  },
+  {
+    "type": "⊥",
     "named": false
   },
   {
@@ -852,6 +884,10 @@
     "named": false
   },
   {
+    "type": "⒯",
+    "named": false
+  },
+  {
     "type": "╭",
     "named": false
   },
@@ -864,15 +900,15 @@
     "named": false
   },
   {
+    "type": "■̠",
+    "named": false
+  },
+  {
     "type": "▰",
     "named": false
   },
   {
     "type": "▰̥",
-    "named": false
-  },
-  {
-    "type": "▶",
     "named": false
   },
   {
@@ -885,6 +921,10 @@
   },
   {
     "type": "◇",
+    "named": false
+  },
+  {
+    "type": "◇̠",
     "named": false
   },
   {
@@ -916,6 +956,10 @@
     "named": false
   },
   {
+    "type": "☡̱",
+    "named": false
+  },
+  {
     "type": "☰",
     "named": false
   },
@@ -929,6 +973,22 @@
   },
   {
     "type": "❙",
+    "named": false
+  },
+  {
+    "type": "❚",
+    "named": false
+  },
+  {
+    "type": "❰",
+    "named": false
+  },
+  {
+    "type": "❱",
+    "named": false
+  },
+  {
+    "type": "⟛",
     "named": false
   },
   {
@@ -976,11 +1036,19 @@
     "named": false
   },
   {
-    "type": "⩀",
+    "type": "⩶",
     "named": false
   },
   {
     "type": "⫙",
+    "named": false
+  },
+  {
+    "type": "⫪",
+    "named": false
+  },
+  {
+    "type": "⫫",
     "named": false
   },
   {
@@ -1097,6 +1165,10 @@
   },
   {
     "type": "𝛑",
+    "named": false
+  },
+  {
+    "type": "𝛿𝚝",
     "named": false
   },
   {
