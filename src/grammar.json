@@ -1069,6 +1069,14 @@
         },
         {
           "type": "STRING",
+          "value": "∠ʳ"
+        },
+        {
+          "type": "STRING",
+          "value": "∠°"
+        },
+        {
+          "type": "STRING",
           "value": "⊣"
         },
         {
