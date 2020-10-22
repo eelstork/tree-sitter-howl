@@ -406,6 +406,14 @@
         {
           "type": "STRING",
           "value": "ˮ"
+        },
+        {
+          "type": "STRING",
+          "value": "≫"
+        },
+        {
+          "type": "STRING",
+          "value": "×"
         }
       ]
     },
@@ -644,6 +652,22 @@
         {
           "type": "STRING",
           "value": "❱"
+        },
+        {
+          "type": "STRING",
+          "value": "⸨"
+        },
+        {
+          "type": "STRING",
+          "value": "⸩"
+        },
+        {
+          "type": "STRING",
+          "value": "⁅"
+        },
+        {
+          "type": "STRING",
+          "value": "⁆"
         }
       ]
     },
