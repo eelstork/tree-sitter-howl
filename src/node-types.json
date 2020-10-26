@@ -632,11 +632,23 @@
     "named": false
   },
   {
+    "type": "ʾ",
+    "named": false
+  },
+  {
+    "type": "ʿ",
+    "named": false
+  },
+  {
     "type": "˙",
     "named": false
   },
   {
     "type": "ˢ",
+    "named": false
+  },
+  {
+    "type": "ˣ",
     "named": false
   },
   {
@@ -689,6 +701,10 @@
   },
   {
     "type": "ᴸ",
+    "named": false
+  },
+  {
+    "type": "ᴼ",
     "named": false
   },
   {
@@ -912,7 +928,19 @@
     "named": false
   },
   {
+    "type": "⒪",
+    "named": false
+  },
+  {
     "type": "⒯",
+    "named": false
+  },
+  {
+    "type": "ⓧ",
+    "named": false
+  },
+  {
+    "type": "ⓧ̱",
     "named": false
   },
   {
@@ -929,6 +957,10 @@
   },
   {
     "type": "■̠",
+    "named": false
+  },
+  {
+    "type": "■̠ʿ",
     "named": false
   },
   {
@@ -953,6 +985,10 @@
   },
   {
     "type": "◇̠",
+    "named": false
+  },
+  {
+    "type": "◇̠ʾ",
     "named": false
   },
   {
@@ -985,6 +1021,14 @@
   },
   {
     "type": "☡̱",
+    "named": false
+  },
+  {
+    "type": "☡̱ʾ",
+    "named": false
+  },
+  {
+    "type": "☡̱ʿ",
     "named": false
   },
   {
@@ -1032,6 +1076,14 @@
     "named": false
   },
   {
+    "type": "⟾",
+    "named": false
+  },
+  {
+    "type": "⤇",
+    "named": false
+  },
+  {
     "type": "⤏",
     "named": false
   },
@@ -1065,6 +1117,14 @@
   },
   {
     "type": "⨕",
+    "named": false
+  },
+  {
+    "type": "⨮",
+    "named": false
+  },
+  {
+    "type": "⨴",
     "named": false
   },
   {
@@ -1152,6 +1212,10 @@
     "named": false
   },
   {
+    "type": "ꜝ",
+    "named": false
+  },
+  {
     "type": "︲",
     "named": false
   },
@@ -1217,6 +1281,14 @@
   },
   {
     "type": "𝛿𝚝",
+    "named": false
+  },
+  {
+    "type": "𝟾",
+    "named": false
+  },
+  {
+    "type": "𝟾̱",
     "named": false
   },
   {

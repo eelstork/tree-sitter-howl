@@ -272,6 +272,10 @@
         {
           "type": "STRING",
           "value": "🔒"
+        },
+        {
+          "type": "STRING",
+          "value": "⒪"
         }
       ]
     },
@@ -595,6 +599,10 @@
         },
         {
           "type": "STRING",
+          "value": "⤇"
+        },
+        {
+          "type": "STRING",
           "value": "¦"
         },
         {
@@ -616,6 +624,10 @@
         {
           "type": "STRING",
           "value": "⏂"
+        },
+        {
+          "type": "STRING",
+          "value": "⟾"
         },
         {
           "type": "STRING",
@@ -816,6 +828,22 @@
         },
         {
           "type": "STRING",
+          "value": "☡̱ʿ"
+        },
+        {
+          "type": "STRING",
+          "value": "■̠ʿ"
+        },
+        {
+          "type": "STRING",
+          "value": "◇̠ʾ"
+        },
+        {
+          "type": "STRING",
+          "value": "☡̱ʾ"
+        },
+        {
+          "type": "STRING",
           "value": "˙"
         },
         {
@@ -829,6 +857,10 @@
         {
           "type": "STRING",
           "value": "み"
+        },
+        {
+          "type": "STRING",
+          "value": "𝟾̱"
         },
         {
           "type": "STRING",
@@ -849,6 +881,10 @@
         {
           "type": "STRING",
           "value": "⌽"
+        },
+        {
+          "type": "STRING",
+          "value": "ⓧ̱"
         },
         {
           "type": "STRING",
@@ -881,6 +917,26 @@
         {
           "type": "STRING",
           "value": "𝚙"
+        },
+        {
+          "type": "STRING",
+          "value": "ꜝ"
+        },
+        {
+          "type": "STRING",
+          "value": "ˣ"
+        },
+        {
+          "type": "STRING",
+          "value": "ʾ"
+        },
+        {
+          "type": "STRING",
+          "value": "ʿ"
+        },
+        {
+          "type": "STRING",
+          "value": "ᴼ"
         }
       ]
     },
@@ -950,6 +1006,14 @@
         {
           "type": "STRING",
           "value": "ㄹ"
+        },
+        {
+          "type": "STRING",
+          "value": "⨴"
+        },
+        {
+          "type": "STRING",
+          "value": "⨮"
         },
         {
           "type": "STRING",
@@ -1130,6 +1194,14 @@
         {
           "type": "STRING",
           "value": "▷"
+        },
+        {
+          "type": "STRING",
+          "value": "𝟾"
+        },
+        {
+          "type": "STRING",
+          "value": "ⓧ"
         }
       ]
     },
