@@ -377,11 +377,11 @@
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "interface",
@@ -645,10 +645,6 @@
   },
   {
     "type": "ˢ",
-    "named": false
-  },
-  {
-    "type": "ˣ",
     "named": false
   },
   {
@@ -1209,10 +1205,6 @@
   },
   {
     "type": "㆑",
-    "named": false
-  },
-  {
-    "type": "ꜝ",
     "named": false
   },
   {
