@@ -377,11 +377,11 @@
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "interface",
@@ -620,6 +620,10 @@
     "named": false
   },
   {
+    "type": "±",
+    "named": false
+  },
+  {
     "type": "¹",
     "named": false
   },
@@ -768,11 +772,19 @@
     "named": false
   },
   {
+    "type": "∃",
+    "named": false
+  },
+  {
     "type": "∅",
     "named": false
   },
   {
     "type": "∈",
+    "named": false
+  },
+  {
+    "type": "∋",
     "named": false
   },
   {
@@ -857,6 +869,10 @@
   },
   {
     "type": "⊥",
+    "named": false
+  },
+  {
+    "type": "⋺",
     "named": false
   },
   {
@@ -1000,6 +1016,10 @@
     "named": false
   },
   {
+    "type": "◍",
+    "named": false
+  },
+  {
     "type": "◠",
     "named": false
   },
@@ -1117,6 +1137,10 @@
   },
   {
     "type": "⦿",
+    "named": false
+  },
+  {
+    "type": "⧕",
     "named": false
   },
   {
@@ -1252,6 +1276,30 @@
     "named": false
   },
   {
+    "type": "𝐹",
+    "named": false
+  },
+  {
+    "type": "𝑠̱",
+    "named": false
+  },
+  {
+    "type": "𝒹",
+    "named": false
+  },
+  {
+    "type": "𝓂",
+    "named": false
+  },
+  {
+    "type": "𝓋",
+    "named": false
+  },
+  {
+    "type": "𝓽",
+    "named": false
+  },
+  {
     "type": "𝔼",
     "named": false
   },
@@ -1272,6 +1320,14 @@
     "named": false
   },
   {
+    "type": "𝚊",
+    "named": false
+  },
+  {
+    "type": "𝚊̱",
+    "named": false
+  },
+  {
     "type": "𝚙",
     "named": false
   },
@@ -1289,6 +1345,14 @@
   },
   {
     "type": "𝛿𝚝",
+    "named": false
+  },
+  {
+    "type": "𝜏",
+    "named": false
+  },
+  {
+    "type": "𝝇",
     "named": false
   },
   {

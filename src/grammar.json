@@ -345,6 +345,14 @@
         },
         {
           "type": "STRING",
+          "value": "⋺"
+        },
+        {
+          "type": "STRING",
+          "value": "∋"
+        },
+        {
+          "type": "STRING",
           "value": "🝠"
         },
         {
@@ -382,6 +390,14 @@
         {
           "type": "STRING",
           "value": "ᐧ"
+        },
+        {
+          "type": "STRING",
+          "value": "±"
+        },
+        {
+          "type": "STRING",
+          "value": "∃"
         },
         {
           "type": "STRING",
@@ -671,6 +687,10 @@
         },
         {
           "type": "STRING",
+          "value": "⩔"
+        },
+        {
+          "type": "STRING",
           "value": "❰"
         },
         {
@@ -840,6 +860,14 @@
         },
         {
           "type": "STRING",
+          "value": "𝚊̱"
+        },
+        {
+          "type": "STRING",
+          "value": "𝑠̱"
+        },
+        {
+          "type": "STRING",
           "value": "☡̱ʿ"
         },
         {
@@ -853,6 +881,10 @@
         {
           "type": "STRING",
           "value": "☡̱ʾ"
+        },
+        {
+          "type": "STRING",
+          "value": "𝐹"
         },
         {
           "type": "STRING",
@@ -904,6 +936,10 @@
         },
         {
           "type": "STRING",
+          "value": "◍"
+        },
+        {
+          "type": "STRING",
           "value": "╭"
         },
         {
@@ -917,6 +953,38 @@
         {
           "type": "STRING",
           "value": "⦿"
+        },
+        {
+          "type": "STRING",
+          "value": "𝚊"
+        },
+        {
+          "type": "STRING",
+          "value": "𝒹"
+        },
+        {
+          "type": "STRING",
+          "value": "𝓂"
+        },
+        {
+          "type": "STRING",
+          "value": "𝝇"
+        },
+        {
+          "type": "STRING",
+          "value": "⧕"
+        },
+        {
+          "type": "STRING",
+          "value": "𝜏"
+        },
+        {
+          "type": "STRING",
+          "value": "𝓽"
+        },
+        {
+          "type": "STRING",
+          "value": "𝓋"
         },
         {
           "type": "STRING",
@@ -941,10 +1009,6 @@
         {
           "type": "STRING",
           "value": "ᴼ"
-        },
-        {
-          "type": "STRING",
-          "value": "⩔"
         }
       ]
     },
