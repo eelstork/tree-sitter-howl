@@ -900,6 +900,10 @@
         },
         {
           "type": "STRING",
+          "value": "み"
+        },
+        {
+          "type": "STRING",
           "value": "⏰"
         },
         {
@@ -981,10 +985,6 @@
         {
           "type": "STRING",
           "value": "𝓋"
-        },
-        {
-          "type": "STRING",
-          "value": "み"
         },
         {
           "type": "STRING",
