@@ -659,6 +659,18 @@
         },
         {
           "type": "STRING",
+          "value": "⍈"
+        },
+        {
+          "type": "STRING",
+          "value": "⩓"
+        },
+        {
+          "type": "STRING",
+          "value": "⍰"
+        },
+        {
+          "type": "STRING",
           "value": "❰"
         },
         {
@@ -929,6 +941,10 @@
         {
           "type": "STRING",
           "value": "ᴼ"
+        },
+        {
+          "type": "STRING",
+          "value": "⩔"
         }
       ]
     },
