@@ -481,9 +481,9 @@ static const char *ts_symbol_names[] = {
   [anon_sym_81] = "▸",
   [anon_sym_82] = "⏢",
   [anon_sym_83] = "⍈",
-  [anon_sym_84] = "⩓",
-  [anon_sym_85] = "⍰",
-  [anon_sym_86] = "⩔",
+  [anon_sym_84] = "⍰",
+  [anon_sym_85] = "⟦",
+  [anon_sym_86] = "⟧",
   [anon_sym_87] = "❰",
   [anon_sym_88] = "❱",
   [anon_sym_89] = "⸨",
@@ -2366,7 +2366,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 9033) ADVANCE(37);
       if (lookahead == 9052) ADVANCE(36);
       if (lookahead == 9061) ADVANCE(57);
-      if (lookahead == 9072) ADVANCE(114);
+      if (lookahead == 9072) ADVANCE(113);
       if (lookahead == 9114) ADVANCE(65);
       if (lookahead == 9154) ADVANCE(103);
       if (lookahead == 9178) ADVANCE(38);
@@ -2403,6 +2403,8 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 10097) ADVANCE(117);
       if (lookahead == 10182) ADVANCE(102);
       if (lookahead == 10203) ADVANCE(184);
+      if (lookahead == 10214) ADVANCE(114);
+      if (lookahead == 10215) ADVANCE(115);
       if (lookahead == 10226) ADVANCE(93);
       if (lookahead == 10227) ADVANCE(92);
       if (lookahead == 10238) ADVANCE(104);
@@ -2419,8 +2421,6 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 10773) ADVANCE(140);
       if (lookahead == 10798) ADVANCE(158);
       if (lookahead == 10804) ADVANCE(157);
-      if (lookahead == 10835) ADVANCE(113);
-      if (lookahead == 10836) ADVANCE(115);
       if (lookahead == 10969) ADVANCE(174);
       if (lookahead == 10986) ADVANCE(183);
       if (lookahead == 10987) ADVANCE(159);
