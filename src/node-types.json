@@ -133,6 +133,10 @@
           "named": true
         },
         {
+          "type": "note",
+          "named": true
+        },
+        {
           "type": "null",
           "named": true
         },
@@ -377,11 +381,11 @@
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "interface",
@@ -422,6 +426,10 @@
   {
     "type": "new",
     "named": false
+  },
+  {
+    "type": "note",
+    "named": true
   },
   {
     "type": "null",

@@ -11,7 +11,7 @@ module.exports = grammar({
     _e  : $ => choice( $.modifiers, $.cat, $.op, $.prim, $.bt, $.flow,
                        $.return, $.key, $.comment, $.z, $._lit, $.id, $.type ),
 
-    _lit: $ => choice( $.null, $.bool, $.char, $.real, $.int, $.str ),
+    _lit: $ => choice( $.null, $.bool, $.char, $.real, $.int, $.note, $.str ),
 
     modifiers: $ => prec.right(repeat1($.mod)),
 
@@ -79,6 +79,8 @@ module.exports = grammar({
     z: $ => choice(/[!-@]/, /[\x5b-\x60]/, /[\x7b-\x7d]/),
 
     str : $ => token(seq('"', repeat(choice( /[^"]/, '""' )), '"'  )),
+
+    note : $ => token(seq('⎨', repeat(choice( /[^"]/, '""' )), '⎬'  )),
 
     bool: $ => choice('true', 'false', __%true%__, __%false%__),
 
