@@ -648,6 +648,10 @@
     "named": false
   },
   {
+    "type": "Ʀ",
+    "named": false
+  },
+  {
     "type": "ʾ",
     "named": false
   },
@@ -673,6 +677,22 @@
   },
   {
     "type": "৴",
+    "named": false
+  },
+  {
+    "type": "Ⴄ",
+    "named": false
+  },
+  {
+    "type": "Ⴋ",
+    "named": false
+  },
+  {
+    "type": "Ⴌ",
+    "named": false
+  },
+  {
+    "type": "Ⴔ",
     "named": false
   },
   {
@@ -704,7 +724,23 @@
     "named": false
   },
   {
+    "type": "ᐅ",
+    "named": false
+  },
+  {
     "type": "ᐧ",
+    "named": false
+  },
+  {
+    "type": "ᑍ",
+    "named": false
+  },
+  {
+    "type": "ᑐ",
+    "named": false
+  },
+  {
+    "type": "ᑔ",
     "named": false
   },
   {
@@ -956,6 +992,10 @@
     "named": false
   },
   {
+    "type": "①",
+    "named": false
+  },
+  {
     "type": "⒜",
     "named": false
   },
@@ -977,6 +1017,18 @@
   },
   {
     "type": "⒯",
+    "named": false
+  },
+  {
+    "type": "ⓔ",
+    "named": false
+  },
+  {
+    "type": "ⓗ",
+    "named": false
+  },
+  {
+    "type": "ⓜ",
     "named": false
   },
   {
@@ -1092,6 +1144,10 @@
     "named": false
   },
   {
+    "type": "✧",
+    "named": false
+  },
+  {
     "type": "❙",
     "named": false
   },
@@ -1204,11 +1260,19 @@
     "named": false
   },
   {
+    "type": "Ɑℓ",
+    "named": false
+  },
+  {
     "type": "⸨",
     "named": false
   },
   {
     "type": "⸩",
+    "named": false
+  },
+  {
+    "type": "⼻",
     "named": false
   },
   {
@@ -1304,6 +1368,10 @@
     "named": false
   },
   {
+    "type": "𝐊",
+    "named": false
+  },
+  {
     "type": "𝐹",
     "named": false
   },
@@ -1345,6 +1413,26 @@
   },
   {
     "type": "𝕊",
+    "named": false
+  },
+  {
+    "type": "𝖴",
+    "named": false
+  },
+  {
+    "type": "𝖴ᵉ",
+    "named": false
+  },
+  {
+    "type": "𝖴ⁱ",
+    "named": false
+  },
+  {
+    "type": "𝙲",
+    "named": false
+  },
+  {
+    "type": "𝚂",
     "named": false
   },
   {
@@ -1392,27 +1480,19 @@
     "named": false
   },
   {
-    "type": "🄰",
+    "type": "🀰",
     "named": false
   },
   {
-    "type": "🄶",
+    "type": "🀱",
     "named": false
   },
   {
-    "type": "🅂",
+    "type": "🌱",
     "named": false
   },
   {
-    "type": "🅄",
-    "named": false
-  },
-  {
-    "type": "🅄ᵉ",
-    "named": false
-  },
-  {
-    "type": "🅄ⁱ",
+    "type": "🍄",
     "named": false
   },
   {
@@ -1420,7 +1500,19 @@
     "named": false
   },
   {
+    "type": "🕹",
+    "named": false
+  },
+  {
     "type": "🝠",
+    "named": false
+  },
+  {
+    "type": "🦋",
+    "named": false
+  },
+  {
+    "type": "🧩",
     "named": false
   }
 ]

@@ -211,6 +211,10 @@
         },
         {
           "type": "STRING",
+          "value": "⼻"
+        },
+        {
+          "type": "STRING",
           "value": "‒"
         },
         {
@@ -280,6 +284,30 @@
         {
           "type": "STRING",
           "value": "⒪"
+        },
+        {
+          "type": "STRING",
+          "value": "ᑍ"
+        },
+        {
+          "type": "STRING",
+          "value": "ᐅ"
+        },
+        {
+          "type": "STRING",
+          "value": "ᑐ"
+        },
+        {
+          "type": "STRING",
+          "value": "ᑔ"
+        },
+        {
+          "type": "STRING",
+          "value": "🀰"
+        },
+        {
+          "type": "STRING",
+          "value": "🀱"
         }
       ]
     },
@@ -876,7 +904,7 @@
         },
         {
           "type": "STRING",
-          "value": "🄰"
+          "value": "Ɑℓ"
         },
         {
           "type": "STRING",
@@ -884,23 +912,27 @@
         },
         {
           "type": "STRING",
-          "value": "🅄"
+          "value": "𝐊"
         },
         {
           "type": "STRING",
-          "value": "🅄ᵉ"
+          "value": "𝖴"
         },
         {
           "type": "STRING",
-          "value": "🅄ⁱ"
+          "value": "𝖴ᵉ"
         },
         {
           "type": "STRING",
-          "value": "🅂"
+          "value": "𝖴ⁱ"
         },
         {
           "type": "STRING",
-          "value": "🄶"
+          "value": "𝚂"
+        },
+        {
+          "type": "STRING",
+          "value": "𝙲"
         },
         {
           "type": "STRING",
@@ -913,6 +945,10 @@
         {
           "type": "STRING",
           "value": "𝑠̱"
+        },
+        {
+          "type": "STRING",
+          "value": "ⓜ"
         },
         {
           "type": "STRING",
@@ -1036,6 +1072,18 @@
         },
         {
           "type": "STRING",
+          "value": "ⓔ"
+        },
+        {
+          "type": "STRING",
+          "value": "①"
+        },
+        {
+          "type": "STRING",
+          "value": "ⓗ"
+        },
+        {
+          "type": "STRING",
           "value": "𝚜"
         },
         {
@@ -1129,6 +1177,18 @@
         },
         {
           "type": "STRING",
+          "value": "Ⴋ"
+        },
+        {
+          "type": "STRING",
+          "value": "Ⴌ"
+        },
+        {
+          "type": "STRING",
+          "value": "Ⴄ"
+        },
+        {
+          "type": "STRING",
           "value": "⨴"
         },
         {
@@ -1205,6 +1265,10 @@
         },
         {
           "type": "STRING",
+          "value": "✧"
+        },
+        {
+          "type": "STRING",
           "value": "𝕂"
         },
         {
@@ -1241,7 +1305,11 @@
         },
         {
           "type": "STRING",
-          "value": "⫙"
+          "value": "🧩"
+        },
+        {
+          "type": "STRING",
+          "value": "🕹"
         },
         {
           "type": "STRING",
@@ -1270,6 +1338,14 @@
         {
           "type": "STRING",
           "value": "メ̂"
+        },
+        {
+          "type": "STRING",
+          "value": "Ʀ"
+        },
+        {
+          "type": "STRING",
+          "value": "Ⴔ"
         },
         {
           "type": "STRING",
@@ -1326,6 +1402,18 @@
         {
           "type": "STRING",
           "value": "ⓧ"
+        },
+        {
+          "type": "STRING",
+          "value": "🌱"
+        },
+        {
+          "type": "STRING",
+          "value": "🍄"
+        },
+        {
+          "type": "STRING",
+          "value": "🦋"
         }
       ]
     },
