@@ -659,6 +659,10 @@
         },
         {
           "type": "STRING",
+          "value": "(╯°ѡ°)⸗"
+        },
+        {
+          "type": "STRING",
           "value": "(╯°□°)╯"
         },
         {
@@ -872,7 +876,31 @@
         },
         {
           "type": "STRING",
+          "value": "🄰"
+        },
+        {
+          "type": "STRING",
           "value": "⊐̥"
+        },
+        {
+          "type": "STRING",
+          "value": "🅄"
+        },
+        {
+          "type": "STRING",
+          "value": "🅄ᵉ"
+        },
+        {
+          "type": "STRING",
+          "value": "🅄ⁱ"
+        },
+        {
+          "type": "STRING",
+          "value": "🅂"
+        },
+        {
+          "type": "STRING",
+          "value": "🄶"
         },
         {
           "type": "STRING",
@@ -1206,6 +1234,10 @@
         {
           "type": "STRING",
           "value": "ロ"
+        },
+        {
+          "type": "STRING",
+          "value": "⫙"
         },
         {
           "type": "STRING",
